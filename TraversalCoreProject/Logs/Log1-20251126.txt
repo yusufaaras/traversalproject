@@ -1,0 +1,50 @@
+2025-11-26T14:00:26.6837517+03:00  [INF] User profile is available. Using '"C:\Users\Yusuf ARAS\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2025-11-26T14:00:27.3661569+03:00  [INF] Now listening on: "https://localhost:7102" (d826f4b8)
+2025-11-26T14:00:27.3692450+03:00  [INF] Now listening on: "http://localhost:5228" (d826f4b8)
+2025-11-26T14:00:27.3740204+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-11-26T14:00:27.3773769+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-11-26T14:00:27.3804823+03:00  [INF] Content root path: "C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject" (cc26f24e)
+2025-11-26T14:00:30.2458249+03:00 0HNHCRC11K010:00000001 [INF] Request starting HTTP/2 GET https://localhost:7102/ - - (ca22a1cb)
+2025-11-26T14:00:30.6568703+03:00 0HNHCRC11K010:00000001 [INF] Executing endpoint '"TraversalCoreProject.Controllers.DefaultController.Index (TraversalCoreProject)"' (500cc934)
+2025-11-26T14:00:30.7396618+03:00 0HNHCRC11K010:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Default\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "TraversalCoreProject.Controllers.DefaultController" ("TraversalCoreProject"). (122b2fdf)
+2025-11-26T14:00:30.7782562+03:00 0HNHCRC11K010:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-11-26T14:00:30.7964613+03:00 0HNHCRC11K010:00000001 [ERR] The view '"Index"' was not found. Searched locations: ["/Views/Default/Index.tr.cshtml", "/Views/Default/Index.cshtml", "/Views/Shared/Index.tr.cshtml", "/Views/Shared/Index.cshtml", "/Pages/Shared/Index.tr.cshtml", "/Pages/Shared/Index.cshtml"] (9bb2756c)
+2025-11-26T14:00:30.8204908+03:00 0HNHCRC11K010:00000001 [INF] Executed action "TraversalCoreProject.Controllers.DefaultController.Index (TraversalCoreProject)" in 68.7025ms (afa2e885)
+2025-11-26T14:00:30.8234897+03:00 0HNHCRC11K010:00000001 [INF] Executed endpoint '"TraversalCoreProject.Controllers.DefaultController.Index (TraversalCoreProject)"' (99874f2b)
+2025-11-26T14:00:30.9139936+03:00 0HNHCRC11K010:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Default/Index.tr.cshtml
+/Views/Default/Index.cshtml
+/Views/Shared/Index.tr.cshtml
+/Views/Shared/Index.cshtml
+/Pages/Shared/Index.tr.cshtml
+/Pages/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-26T14:00:31.0220454+03:00 0HNHCRC11K010:00000001 [INF] Request finished HTTP/2 GET https://localhost:7102/ - - - 500 - text/html;+charset=utf-8 779.8485ms (791a596a)
+2025-11-26T14:00:31.0390142+03:00 0HNHCRC11K010:00000005 [INF] Request starting HTTP/2 GET https://localhost:7102/_vs/browserLink - - (ca22a1cb)
+2025-11-26T14:00:31.0390142+03:00 0HNHCRC11K010:00000003 [INF] Request starting HTTP/2 GET https://localhost:7102/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2025-11-26T14:00:31.0494917+03:00 0HNHCRC11K010:00000003 [INF] Request finished HTTP/2 GET https://localhost:7102/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 10.3767ms (791a596a)
+2025-11-26T14:00:31.1273446+03:00 0HNHCRC11K010:00000005 [INF] Request finished HTTP/2 GET https://localhost:7102/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 88.3527ms (791a596a)
+2025-11-26T14:00:31.1583923+03:00 0HNHCRC11K010:00000007 [INF] Request starting HTTP/2 GET https://localhost:7102/favicon.ico - - (ca22a1cb)
+2025-11-26T14:00:31.2056843+03:00 0HNHCRC11K010:00000007 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\wwwroot\favicon.ico"' (27b0a520)
+2025-11-26T14:00:31.2064371+03:00 0HNHCRC11K010:00000007 [INF] Request finished HTTP/2 GET https://localhost:7102/favicon.ico - - - 200 5430 image/x-icon 48.0414ms (791a596a)

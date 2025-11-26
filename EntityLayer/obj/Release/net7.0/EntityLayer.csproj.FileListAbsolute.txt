@@ -1,0 +1,14 @@
+C:\EntityLayer\bin\Release\net7.0\EntityLayer.deps.json
+C:\EntityLayer\bin\Release\net7.0\EntityLayer.runtimeconfig.json
+C:\EntityLayer\bin\Release\net7.0\EntityLayer.dll
+C:\EntityLayer\bin\Release\net7.0\EntityLayer.pdb
+C:\EntityLayer\obj\Release\net7.0\EntityLayer.csproj.AssemblyReference.cache
+C:\EntityLayer\obj\Release\net7.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\EntityLayer\obj\Release\net7.0\EntityLayer.AssemblyInfoInputs.cache
+C:\EntityLayer\obj\Release\net7.0\EntityLayer.AssemblyInfo.cs
+C:\EntityLayer\obj\Release\net7.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\EntityLayer\obj\Release\net7.0\EntityLayer.dll
+C:\EntityLayer\obj\Release\net7.0\refint\EntityLayer.dll
+C:\EntityLayer\obj\Release\net7.0\EntityLayer.pdb
+C:\EntityLayer\obj\Release\net7.0\EntityLayer.genruntimeconfig.cache
+C:\EntityLayer\obj\Release\net7.0\ref\EntityLayer.dll
