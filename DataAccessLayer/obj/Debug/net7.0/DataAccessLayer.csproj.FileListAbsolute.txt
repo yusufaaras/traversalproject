@@ -1,34 +1,52 @@
-C:\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.deps.json
-C:\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.runtimeconfig.json
-C:\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.dll
-C:\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.pdb
-C:\DataAccessLayer\bin\Debug\net7.0\EntityLayer.dll
-C:\DataAccessLayer\bin\Debug\net7.0\EntityLayer.pdb
-C:\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.AssemblyReference.cache
-C:\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
-C:\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.AssemblyInfoInputs.cache
-C:\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.AssemblyInfo.cs
-C:\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.CoreCompileInputs.cache
-C:\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.CopyComplete
-C:\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.dll
-C:\DataAccessLayer\obj\Debug\net7.0\refint\DataAccessLayer.dll
-C:\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.pdb
-C:\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.genruntimeconfig.cache
-C:\DataAccessLayer\obj\Debug\net7.0\ref\DataAccessLayer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.deps.json
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.runtimeconfig.json
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.pdb
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DataAccessLayer\bin\Debug\net7.0\EntityLayer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DataAccessLayer\bin\Debug\net7.0\EntityLayer.pdb
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.AssemblyReference.cache
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.AssemblyInfoInputs.cache
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.AssemblyInfo.cs
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.CoreCompileInputs.cache
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.CopyComplete
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DataAccessLayer\obj\Debug\net7.0\refint\DataAccessLayer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.pdb
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.genruntimeconfig.cache
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DataAccessLayer\obj\Debug\net7.0\ref\DataAccessLayer.dll
+C:/DataAccessLayer/bin/Debug/net7.0/DataAccessLayer.deps.json
+C:/DataAccessLayer/bin/Debug/net7.0/DataAccessLayer.runtimeconfig.json
+C:/DataAccessLayer/bin/Debug/net7.0/DataAccessLayer.dll
+C:/DataAccessLayer/bin/Debug/net7.0/DataAccessLayer.pdb
+C:/DataAccessLayer/bin/Debug/net7.0/EntityLayer.dll
+C:/DataAccessLayer/bin/Debug/net7.0/EntityLayer.pdb
+C:/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.csproj.AssemblyReference.cache
+C:/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.AssemblyInfoInputs.cache
+C:/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.AssemblyInfo.cs
+C:/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.csproj.CoreCompileInputs.cache
+C:/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.csproj.CopyComplete
+C:/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.dll
+C:/DataAccessLayer/obj/Debug/net7.0/refint/DataAccessLayer.dll
+C:/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.pdb
+C:/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.genruntimeconfig.cache
+C:/DataAccessLayer/obj/Debug/net7.0/ref/DataAccessLayer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DataAccessLayer/bin/Debug/net7.0/DataAccessLayer.deps.json
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DataAccessLayer/bin/Debug/net7.0/DataAccessLayer.runtimeconfig.json
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DataAccessLayer/bin/Debug/net7.0/DataAccessLayer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DataAccessLayer/bin/Debug/net7.0/DataAccessLayer.pdb
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DataAccessLayer/bin/Debug/net7.0/EntityLayer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DataAccessLayer/bin/Debug/net7.0/EntityLayer.pdb
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.csproj.AssemblyReference.cache
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.AssemblyInfoInputs.cache
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.AssemblyInfo.cs
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.csproj.CoreCompileInputs.cache
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.csproj.CopyComplete
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DataAccessLayer/obj/Debug/net7.0/refint/DataAccessLayer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.pdb
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.genruntimeconfig.cache
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DataAccessLayer/obj/Debug/net7.0/ref/DataAccessLayer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/DataAccessLayer/bin/Debug/net7.0/DataAccessLayer.deps.json
+/Users/aliunnab/Documents/GitHub/traversalproject/DataAccessLayer/bin/Debug/net7.0/DataAccessLayer.runtimeconfig.json
+/Users/aliunnab/Documents/GitHub/traversalproject/DataAccessLayer/bin/Debug/net7.0/DataAccessLayer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/DataAccessLayer/bin/Debug/net7.0/DataAccessLayer.pdb
+/Users/aliunnab/Documents/GitHub/traversalproject/DataAccessLayer/bin/Debug/net7.0/EntityLayer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/DataAccessLayer/bin/Debug/net7.0/EntityLayer.pdb
+/Users/aliunnab/Documents/GitHub/traversalproject/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.csproj.AssemblyReference.cache
+/Users/aliunnab/Documents/GitHub/traversalproject/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aliunnab/Documents/GitHub/traversalproject/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.AssemblyInfoInputs.cache
+/Users/aliunnab/Documents/GitHub/traversalproject/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.AssemblyInfo.cs
+/Users/aliunnab/Documents/GitHub/traversalproject/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.csproj.CoreCompileInputs.cache
+/Users/aliunnab/Documents/GitHub/traversalproject/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.sourcelink.json
+/Users/aliunnab/Documents/GitHub/traversalproject/DataAccessLayer/obj/Debug/net7.0/DataAcce.E67BD773.Up2Date
+/Users/aliunnab/Documents/GitHub/traversalproject/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/DataAccessLayer/obj/Debug/net7.0/refint/DataAccessLayer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.pdb
+/Users/aliunnab/Documents/GitHub/traversalproject/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.genruntimeconfig.cache
+/Users/aliunnab/Documents/GitHub/traversalproject/DataAccessLayer/obj/Debug/net7.0/ref/DataAccessLayer.dll

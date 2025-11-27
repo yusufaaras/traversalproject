@@ -9,479 +9,479 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TraversalCoreProject
 build_property.RootNamespace = TraversalCoreProject
-build_property.ProjectDir = C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\
+build_property.ProjectDir = /Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject
+build_property.MSBuildProjectDirectory = /Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Account/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWNjb3VudC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Announcement/AddAnnouncement.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQW5ub3VuY2VtZW50XEFkZEFubm91bmNlbWVudC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/Announcement/AddAnnouncement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQW5ub3VuY2VtZW50L0FkZEFubm91bmNlbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Announcement/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQW5ub3VuY2VtZW50XEluZGV4LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/Announcement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQW5ub3VuY2VtZW50L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Announcement/UpdateAnnouncement.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQW5ub3VuY2VtZW50XFVwZGF0ZUFubm91bmNlbWVudC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/Announcement/UpdateAnnouncement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQW5ub3VuY2VtZW50L1VwZGF0ZUFubm91bmNlbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/ApiExchange/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBpRXhjaGFuZ2VcSW5kZXguY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/ApiExchange/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQXBpRXhjaGFuZ2UvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/ApiMovie/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBpTW92aWVcSW5kZXguY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/ApiMovie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQXBpTW92aWUvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/BookingHotelSearch/GetCityDestID.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9va2luZ0hvdGVsU2VhcmNoXEdldENpdHlEZXN0SUQuY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/BookingHotelSearch/GetCityDestID.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQm9va2luZ0hvdGVsU2VhcmNoL0dldENpdHlEZXN0SUQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/BookingHotelSearch/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9va2luZ0hvdGVsU2VhcmNoXEluZGV4LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/BookingHotelSearch/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQm9va2luZ0hvdGVsU2VhcmNoL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/City/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2l0eVxJbmRleC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/City/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2l0eS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Comment/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxJbmRleC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/Comment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ29tbWVudC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/ContactUs/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdFVzXEluZGV4LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/ContactUs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ29udGFjdFVzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/DashBoard/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaEJvYXJkXEluZGV4LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/DashBoard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRGFzaEJvYXJkL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/DestinationCQRS/AddDestination.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25DUVJTXEFkZERlc3RpbmF0aW9uLmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/Destination/AddDestination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRGVzdGluYXRpb24vQWRkRGVzdGluYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/DestinationCQRS/GetDestination.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25DUVJTXEdldERlc3RpbmF0aW9uLmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/Destination/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRGVzdGluYXRpb24vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/DestinationCQRS/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25DUVJTXEluZGV4LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/Destination/UpdateDestination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRGVzdGluYXRpb24vVXBkYXRlRGVzdGluYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Destination/AddDestination.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25cQWRkRGVzdGluYXRpb24uY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/DestinationCQRS/AddDestination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRGVzdGluYXRpb25DUVJTL0FkZERlc3RpbmF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Destination/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25cSW5kZXguY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/DestinationCQRS/GetDestination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRGVzdGluYXRpb25DUVJTL0dldERlc3RpbmF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Destination/UpdateDestination.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25cVXBkYXRlRGVzdGluYXRpb24uY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/DestinationCQRS/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRGVzdGluYXRpb25DUVJTL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/GuideMediatR/AddGuide.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3VpZGVNZWRpYXRSXEFkZEd1aWRlLmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/GuideMediatR/AddGuide.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvR3VpZGVNZWRpYXRSL0FkZEd1aWRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/GuideMediatR/GetGuides.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3VpZGVNZWRpYXRSXEdldEd1aWRlcy5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/GuideMediatR/GetGuides.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvR3VpZGVNZWRpYXRSL0dldEd1aWRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/GuideMediatR/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3VpZGVNZWRpYXRSXEluZGV4LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/GuideMediatR/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvR3VpZGVNZWRpYXRSL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Guides/AddGuide.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3VpZGVzXEFkZEd1aWRlLmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/Guides/AddGuide.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvR3VpZGVzL0FkZEd1aWRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Guides/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3VpZGVzXEluZGV4LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/Guides/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvR3VpZGVzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Mail/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFpbFxJbmRleC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/Mail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvTWFpbC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Role/AssignRole.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxBc3NpZ25Sb2xlLmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/Role/AssignRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUm9sZS9Bc3NpZ25Sb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Role/CreateRole.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxDcmVhdGVSb2xlLmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/Role/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUm9sZS9DcmVhdGVSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Role/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUm9sZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Role/UpdateRole.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxVcGRhdGVSb2xlLmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/Role/UpdateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUm9sZS9VcGRhdGVSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Role/UserList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxVc2VyTGlzdC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/Role/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUm9sZS9Vc2VyTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/User/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVXNlci9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/User/ReservationUser.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxSZXNlcnZhdGlvblVzZXIuY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/User/ReservationUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVXNlci9SZXNlcnZhdGlvblVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Member/Views/Comment/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXENvbW1lbnRcSW5kZXguY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Member/Views/Comment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWVtYmVyL1ZpZXdzL0NvbW1lbnQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Member/Views/DashBoard/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXERhc2hCb2FyZFxJbmRleC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Member/Views/DashBoard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWVtYmVyL1ZpZXdzL0Rhc2hCb2FyZC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Member/Views/DashBoard/MemberDashboard.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXERhc2hCb2FyZFxNZW1iZXJEYXNoYm9hcmQuY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Member/Views/DashBoard/MemberDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWVtYmVyL1ZpZXdzL0Rhc2hCb2FyZC9NZW1iZXJEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Member/Views/Destination/GetCitiesSerachByName.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXERlc3RpbmF0aW9uXEdldENpdGllc1NlcmFjaEJ5TmFtZS5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Member/Views/Destination/GetCitiesSerachByName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWVtYmVyL1ZpZXdzL0Rlc3RpbmF0aW9uL0dldENpdGllc1NlcmFjaEJ5TmFtZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Member/Views/Destination/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXERlc3RpbmF0aW9uXEluZGV4LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Member/Views/Destination/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWVtYmVyL1ZpZXdzL0Rlc3RpbmF0aW9uL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Member/Views/LastDestinations/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXExhc3REZXN0aW5hdGlvbnNcSW5kZXguY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Member/Views/LastDestinations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWVtYmVyL1ZpZXdzL0xhc3REZXN0aW5hdGlvbnMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Member/Views/Profile/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXFByb2ZpbGVcSW5kZXguY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Member/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWVtYmVyL1ZpZXdzL1Byb2ZpbGUvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Member/Views/Reservation/Deneme.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXFJlc2VydmF0aW9uXERlbmVtZS5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Member/Views/Reservation/Deneme.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWVtYmVyL1ZpZXdzL1Jlc2VydmF0aW9uL0RlbmVtZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Member/Views/Reservation/MyApprovalReservation.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXFJlc2VydmF0aW9uXE15QXBwcm92YWxSZXNlcnZhdGlvbi5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Member/Views/Reservation/MyApprovalReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWVtYmVyL1ZpZXdzL1Jlc2VydmF0aW9uL015QXBwcm92YWxSZXNlcnZhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Member/Views/Reservation/MyCurrentReservation.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXFJlc2VydmF0aW9uXE15Q3VycmVudFJlc2VydmF0aW9uLmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Member/Views/Reservation/MyCurrentReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWVtYmVyL1ZpZXdzL1Jlc2VydmF0aW9uL015Q3VycmVudFJlc2VydmF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Member/Views/Reservation/MyOldReservation.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXFJlc2VydmF0aW9uXE15T2xkUmVzZXJ2YXRpb24uY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Member/Views/Reservation/MyOldReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWVtYmVyL1ZpZXdzL1Jlc2VydmF0aW9uL015T2xkUmVzZXJ2YXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Member/Views/Reservation/NewReservation.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXFJlc2VydmF0aW9uXE5ld1Jlc2VydmF0aW9uLmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Member/Views/Reservation/NewReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWVtYmVyL1ZpZXdzL1Jlc2VydmF0aW9uL05ld1Jlc2VydmF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Areas/Member/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Areas/Member/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWVtYmVyL1ZpZXdzL19WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/About/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Admin/PartialAppBrandDemo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbEFwcEJyYW5kRGVtby5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Admin/PartialAppBrandDemo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUGFydGlhbEFwcEJyYW5kRGVtby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Admin/PartialFooter.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbEZvb3Rlci5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Admin/PartialFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUGFydGlhbEZvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Admin/PartialHeader.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbEhlYWRlci5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Admin/PartialHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUGFydGlhbEhlYWRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Admin/PartialNavbar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbE5hdmJhci5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Admin/PartialNavbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUGFydGlhbE5hdmJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Admin/PartialScript.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbFNjcmlwdC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Admin/PartialScript.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUGFydGlhbFNjcmlwdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Admin/PartialSideBar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbFNpZGVCYXIuY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Admin/PartialSideBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUGFydGlhbFNpZGVCYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Buy/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5XEluZGV4LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Buy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnV5L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Comment/AddComment.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxBZGRDb21tZW50LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Comment/AddComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tbWVudC9BZGRDb21tZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Contact/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Default/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVmYXVsdC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/DestinationController1/DestinationDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25Db250cm9sbGVyMVxEZXN0aW5hdGlvbkRldGFpbHMuY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/DestinationController1/DestinationDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVzdGluYXRpb25Db250cm9sbGVyMS9EZXN0aW5hdGlvbkRldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/DestinationController1/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25Db250cm9sbGVyMVxJbmRleC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/DestinationController1/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVzdGluYXRpb25Db250cm9sbGVyMS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/ErrorPage/Error404.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JQYWdlXEVycm9yNDA0LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/ErrorPage/Error404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXJyb3JQYWdlL0Vycm9yNDA0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Excel/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjZWxcSW5kZXguY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Excel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhjZWwvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Guide/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VpZGVcSW5kZXguY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Guide/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3VpZGUvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Home/Test.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXN0LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Home/Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9UZXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Information/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYXRpb25cSW5kZXguY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Information/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5mb3JtYXRpb24vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/LayoutPartial/_FooterPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfRm9vdGVyUGFydGlhbC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/LayoutPartial/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGF5b3V0UGFydGlhbC9fRm9vdGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/LayoutPartial/_HeaderPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfSGVhZGVyUGFydGlhbC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/LayoutPartial/_HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGF5b3V0UGFydGlhbC9fSGVhZGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/LayoutPartial/_NavbarPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfTmF2YmFyUGFydGlhbC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/LayoutPartial/_NavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGF5b3V0UGFydGlhbC9fTmF2YmFyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/LayoutPartial/_ScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/LayoutPartial/_ScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGF5b3V0UGFydGlhbC9fU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Login/SignIn.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnbkluLmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Login/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vU2lnbkluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Login/SignUp.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnblVwLmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Login/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vU2lnblVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/MemberLayoutPartial/_FooterPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyTGF5b3V0UGFydGlhbFxfRm9vdGVyUGFydGlhbC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/MemberLayoutPartial/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYmVyTGF5b3V0UGFydGlhbC9fRm9vdGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/MemberLayoutPartial/_HeaderPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyTGF5b3V0UGFydGlhbFxfSGVhZGVyUGFydGlhbC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/MemberLayoutPartial/_HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYmVyTGF5b3V0UGFydGlhbC9fSGVhZGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/MemberLayoutPartial/_Navbar2Partial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyTGF5b3V0UGFydGlhbFxfTmF2YmFyMlBhcnRpYWwuY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/MemberLayoutPartial/_Navbar2Partial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYmVyTGF5b3V0UGFydGlhbC9fTmF2YmFyMlBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/MemberLayoutPartial/_NavbarPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyTGF5b3V0UGFydGlhbFxfTmF2YmFyUGFydGlhbC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/MemberLayoutPartial/_NavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYmVyTGF5b3V0UGFydGlhbC9fTmF2YmFyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/MemberLayoutPartial/_RightBarPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyTGF5b3V0UGFydGlhbFxfUmlnaHRCYXJQYXJ0aWFsLmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/MemberLayoutPartial/_RightBarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYmVyTGF5b3V0UGFydGlhbC9fUmlnaHRCYXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/MemberLayoutPartial/_ScriptPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyTGF5b3V0UGFydGlhbFxfU2NyaXB0UGFydGlhbC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/MemberLayoutPartial/_ScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYmVyTGF5b3V0UGFydGlhbC9fU2NyaXB0UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/PasswordChange/ForgetPassword.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3dvcmRDaGFuZ2VcRm9yZ2V0UGFzc3dvcmQuY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/PasswordChange/ForgetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFzc3dvcmRDaGFuZ2UvRm9yZ2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/PasswordChange/ResetPassword.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3dvcmRDaGFuZ2VcUmVzZXRQYXNzd29yZC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/PasswordChange/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFzc3dvcmRDaGFuZ2UvUmVzZXRQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/PdfReport/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGRmUmVwb3J0XEluZGV4LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/PdfReport/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGRmUmVwb3J0L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_AdminDashboardHeader/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluRGFzaGJvYXJkSGVhZGVyXERlZmF1bHQuY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_AdminDashboardHeader/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0FkbWluRGFzaGJvYXJkSGVhZGVyL0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_AdminGuideList/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluR3VpZGVMaXN0XERlZmF1bHQuY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_AdminGuideList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0FkbWluR3VpZGVMaXN0L0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_Cards1Statistic/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NhcmRzMVN0YXRpc3RpY1xEZWZhdWx0LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_Cards1Statistic/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0NhcmRzMVN0YXRpc3RpYy9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_Cards2Statistic/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NhcmRzMlN0YXRpc3RpY1xEZWZhdWx0LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_Cards2Statistic/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0NhcmRzMlN0YXRpc3RpYy9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_CommentList/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NvbW1lbnRMaXN0XERlZmF1bHQuY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_CommentList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0NvbW1lbnRMaXN0L0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_DashboardBanner/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Rhc2hib2FyZEJhbm5lclxEZWZhdWx0LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_DashboardBanner/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Rhc2hib2FyZEJhbm5lci9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_DestinationStatistic2/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Rlc3RpbmF0aW9uU3RhdGlzdGljMlxEZWZhdWx0LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_DestinationStatistic/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Rlc3RpbmF0aW9uU3RhdGlzdGljL0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_DestinationStatistic/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Rlc3RpbmF0aW9uU3RhdGlzdGljXERlZmF1bHQuY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_DestinationStatistic2/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Rlc3RpbmF0aW9uU3RhdGlzdGljMi9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_Feature/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0ZlYXR1cmVcRGVmYXVsdC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_Feature/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0ZlYXR1cmUvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_GuideDetails/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0d1aWRlRGV0YWlsc1xEZWZhdWx0LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_GuideDetails/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0d1aWRlRGV0YWlscy9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_GuideList/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0d1aWRlTGlzdFxEZWZhdWx0LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_GuideList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0d1aWRlTGlzdC9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_LastDestinations/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xhc3REZXN0aW5hdGlvbnNcRGVmYXVsdC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_LastDestinations/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0xhc3REZXN0aW5hdGlvbnMvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutFooter/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dEZvb3RlclxEZWZhdWx0LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutFooter/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX01lbWJlckxheW91dEZvb3Rlci9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutHeaderContent/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dEhlYWRlckNvbnRlbnRcRGVmYXVsdC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutHead/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX01lbWJlckxheW91dEhlYWQvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutHead/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dEhlYWRcRGVmYXVsdC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutHeaderContent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX01lbWJlckxheW91dEhlYWRlckNvbnRlbnQvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutLanguages/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dExhbmd1YWdlc1xEZWZhdWx0LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutLanguages/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX01lbWJlckxheW91dExhbmd1YWdlcy9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutNavbar/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dE5hdmJhclxEZWZhdWx0LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutNavbar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX01lbWJlckxheW91dE5hdmJhci9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutSerach/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dFNlcmFjaFxEZWZhdWx0LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutSerach/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX01lbWJlckxheW91dFNlcmFjaC9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutSidebar/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dFNpZGViYXJcRGVmYXVsdC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutSidebar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX01lbWJlckxheW91dFNpZGViYXIvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_MemberStatistic/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlclN0YXRpc3RpY1xEZWZhdWx0LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_MemberStatistic/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX01lbWJlclN0YXRpc3RpYy9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_PlatformSettings/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1BsYXRmb3JtU2V0dGluZ3NcRGVmYXVsdC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_PlatformSettings/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1BsYXRmb3JtU2V0dGluZ3MvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_PopularDestinations/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1BvcHVsYXJEZXN0aW5hdGlvbnNcRGVmYXVsdC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_PopularDestinations/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1BvcHVsYXJEZXN0aW5hdGlvbnMvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_ProfileInformation/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2ZpbGVJbmZvcm1hdGlvblxEZWZhdWx0LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_ProfileInformation/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1Byb2ZpbGVJbmZvcm1hdGlvbi9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_SliderPartial/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NsaWRlclBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_SliderPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1NsaWRlclBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_Statistic/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1N0YXRpc3RpY1xEZWZhdWx0LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_Statistic/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1N0YXRpc3RpYy9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_SubAbout/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1N1YkFib3V0XERlZmF1bHQuY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_SubAbout/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1N1YkFib3V0L0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_TestiMonial/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Rlc3RpTW9uaWFsXERlZmF1bHQuY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_TestiMonial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1Rlc3RpTW9uaWFsL0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_TotalRevenue/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1RvdGFsUmV2ZW51ZVxEZWZhdWx0LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Components/_TotalRevenue/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1RvdGFsUmV2ZW51ZS9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/_AdminLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/_MemberLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW1iZXJMYXlvdXQuY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/_MemberLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19NZW1iZXJMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/_UILayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9VSUxheW91dC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/_UILayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19VSUxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/_UserLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTGF5b3V0LmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Vc2VyTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-6q8yzqn2z2
+[/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-56rus74av4

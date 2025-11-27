@@ -1,652 +1,984 @@
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.csproj.AssemblyReference.cache
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.GeneratedMSBuildEditorConfig.editorconfig
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.AssemblyInfoInputs.cache
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.AssemblyInfo.cs
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.csproj.CoreCompileInputs.cache
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.MvcApplicationPartsAssemblyInfo.cache
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.RazorAssemblyInfo.cache
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.RazorAssemblyInfo.cs
-C:\TraversalCoreProject\bin\Debug\net7.0\appsettings.Development.json
-C:\TraversalCoreProject\bin\Debug\net7.0\appsettings.json
-C:\TraversalCoreProject\bin\Debug\net7.0\TraversalCoreProject.staticwebassets.runtime.json
-C:\TraversalCoreProject\bin\Debug\net7.0\TraversalCoreProject.exe
-C:\TraversalCoreProject\bin\Debug\net7.0\TraversalCoreProject.deps.json
-C:\TraversalCoreProject\bin\Debug\net7.0\TraversalCoreProject.runtimeconfig.json
-C:\TraversalCoreProject\bin\Debug\net7.0\TraversalCoreProject.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\TraversalCoreProject.pdb
-C:\TraversalCoreProject\bin\Debug\net7.0\AutoMapper.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Azure.Core.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Azure.Identity.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ClosedXML.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\DocumentFormat.OpenXml.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\EPPlus.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\EPPlus.Interfaces.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\EPPlus.System.Drawing.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ExcelNumberFormat.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\FluentValidation.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Humanizer.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Irony.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\iTextSharp.LGPLv2.Core.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\MailKit.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\MediatR.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\MediatR.Contracts.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Build.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Build.Framework.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\MimeKit.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Newtonsoft.Json.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\NuGet.Common.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\NuGet.Configuration.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\NuGet.Frameworks.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\NuGet.LibraryModel.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\NuGet.Packaging.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\NuGet.ProjectModel.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\NuGet.Protocol.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\NuGet.Versioning.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Serilog.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Serilog.Extensions.Logging.File.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Serilog.Sinks.Async.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Serilog.Sinks.File.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\Serilog.Sinks.RollingFile.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\SixLabors.Fonts.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\SkiaSharp.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\System.CodeDom.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\System.Composition.AttributedModel.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\System.Composition.Convention.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\System.Composition.Hosting.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\System.Composition.Runtime.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\System.Composition.TypedParts.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\System.IO.Packaging.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\System.Memory.Data.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\System.Runtime.Caching.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\XLParser.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\xunit.abstractions.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\xunit.core.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\af\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ar\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\az\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\bg\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\bn-BD\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\cs\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\da\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\de\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\el\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\es\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\fa\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\fi-FI\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\fr\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\fr-BE\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\he\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\hr\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\hu\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\hy\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\id\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\is\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\it\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ja\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ko-KR\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ku\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\lv\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ms-MY\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\mt\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\nb\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\nb-NO\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\nl\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\pl\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\pt\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ro\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ru\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\sk\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\sl\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\sr\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\sr-Latn\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\sv\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\th-TH\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\tr\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\uk\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\uz-Cyrl-UZ\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\uz-Latn-UZ\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\vi\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\zh-CN\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\zh-Hans\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\zh-Hant\Humanizer.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
-C:\TraversalCoreProject\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\BusinessLayer.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\DataAccessLayer.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\DTOLayer.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\EntityLayer.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\BusinessLayer.pdb
-C:\TraversalCoreProject\bin\Debug\net7.0\DataAccessLayer.pdb
-C:\TraversalCoreProject\bin\Debug\net7.0\DTOLayer.pdb
-C:\TraversalCoreProject\bin\Debug\net7.0\EntityLayer.pdb
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.MvcApplicationPartsAssemblyInfo.cs
-C:\TraversalCoreProject\obj\Debug\net7.0\staticwebassets\msbuild.TraversalCoreProject.Microsoft.AspNetCore.StaticWebAssets.props
-C:\TraversalCoreProject\obj\Debug\net7.0\staticwebassets\msbuild.build.TraversalCoreProject.props
-C:\TraversalCoreProject\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.TraversalCoreProject.props
-C:\TraversalCoreProject\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.TraversalCoreProject.props
-C:\TraversalCoreProject\obj\Debug\net7.0\staticwebassets.pack.json
-C:\TraversalCoreProject\obj\Debug\net7.0\staticwebassets.build.json
-C:\TraversalCoreProject\obj\Debug\net7.0\staticwebassets.development.json
-C:\TraversalCoreProject\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\TraversalCoreProject\obj\Debug\net7.0\scopedcss\bundle\TraversalCoreProject.styles.css
-C:\TraversalCoreProject\obj\Debug\net7.0\scopedcss\projectbundle\TraversalCoreProject.bundle.scp.css
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.csproj.CopyComplete
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.dll
-C:\TraversalCoreProject\obj\Debug\net7.0\refint\TraversalCoreProject.dll
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.pdb
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.genruntimeconfig.cache
-C:\TraversalCoreProject\obj\Debug\net7.0\ref\TraversalCoreProject.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\de\TraversalCoreProject.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\en\TraversalCoreProject.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\es\TraversalCoreProject.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\fr\TraversalCoreProject.resources.dll
-C:\TraversalCoreProject\bin\Debug\net7.0\tr\TraversalCoreProject.resources.dll
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Information.Index.gr.resources
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Information.Index.de.resources
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Information.Index.en.resources
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Information.Index.es.resources
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Information.Index.fr.resources
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Information.Index.tr.resources
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.csproj.GenerateResource.cache
-C:\TraversalCoreProject\obj\Debug\net7.0\de\TraversalCoreProject.resources.dll
-C:\TraversalCoreProject\obj\Debug\net7.0\en\TraversalCoreProject.resources.dll
-C:\TraversalCoreProject\obj\Debug\net7.0\es\TraversalCoreProject.resources.dll
-C:\TraversalCoreProject\obj\Debug\net7.0\fr\TraversalCoreProject.resources.dll
-C:\TraversalCoreProject\obj\Debug\net7.0\tr\TraversalCoreProject.resources.dll
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Shared._MemberLayout.en.resources
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Shared._MemberLayout.tr.resources
-C:\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Shared._MemberLayout.fr.resources
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\refint\TraversalCoreProject.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.pdb
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\appsettings.json
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\TraversalCoreProject.staticwebassets.runtime.json
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\TraversalCoreProject.exe
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\TraversalCoreProject.deps.json
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\TraversalCoreProject.runtimeconfig.json
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\TraversalCoreProject.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\TraversalCoreProject.pdb
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\de\TraversalCoreProject.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\en\TraversalCoreProject.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\es\TraversalCoreProject.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\fr\TraversalCoreProject.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\tr\TraversalCoreProject.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\AutoMapper.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Azure.Core.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Azure.Identity.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ClosedXML.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\DocumentFormat.OpenXml.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\EPPlus.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\EPPlus.Interfaces.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\EPPlus.System.Drawing.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ExcelNumberFormat.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\FluentValidation.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Humanizer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Irony.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\iTextSharp.LGPLv2.Core.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\MailKit.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\MediatR.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\MediatR.Contracts.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Build.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Build.Framework.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\MimeKit.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Newtonsoft.Json.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\NuGet.Common.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\NuGet.Configuration.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\NuGet.Frameworks.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\NuGet.LibraryModel.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\NuGet.Packaging.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\NuGet.ProjectModel.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\NuGet.Protocol.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\NuGet.Versioning.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Serilog.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Serilog.Extensions.Logging.File.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Serilog.Sinks.Async.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Serilog.Sinks.File.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Serilog.Sinks.RollingFile.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\SixLabors.Fonts.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\SkiaSharp.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\System.Composition.AttributedModel.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\System.Composition.Convention.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\System.Composition.Hosting.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\System.Composition.Runtime.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\System.Composition.TypedParts.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\System.IO.Packaging.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\System.Memory.Data.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\System.Runtime.Caching.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\XLParser.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\xunit.abstractions.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\xunit.core.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\af\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ar\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\az\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\bg\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\bn-BD\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\cs\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\da\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\de\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\el\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\es\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\fa\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\fi-FI\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\fr\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\fr-BE\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\he\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\hr\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\hu\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\hy\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\id\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\is\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\it\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ja\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ko-KR\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ku\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\lv\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ms-MY\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\mt\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\nb\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\nb-NO\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\nl\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\pl\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\pt\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ro\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ru\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\sk\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\sl\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\sr\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\sr-Latn\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\sv\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\th-TH\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\tr\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\uk\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\uz-Cyrl-UZ\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\uz-Latn-UZ\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\vi\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\zh-CN\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\zh-Hans\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\zh-Hant\Humanizer.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\BusinessLayer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\DataAccessLayer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\DTOLayer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\EntityLayer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\BusinessLayer.pdb
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\DataAccessLayer.pdb
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\DTOLayer.pdb
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\EntityLayer.pdb
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.csproj.AssemblyReference.cache
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Information.Index.gr.resources
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Information.Index.de.resources
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Information.Index.en.resources
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Information.Index.es.resources
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Information.Index.fr.resources
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Information.Index.tr.resources
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Shared._MemberLayout.en.resources
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Shared._MemberLayout.fr.resources
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Shared._MemberLayout.tr.resources
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.csproj.GenerateResource.cache
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.AssemblyInfoInputs.cache
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.AssemblyInfo.cs
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.csproj.CoreCompileInputs.cache
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.RazorAssemblyInfo.cache
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.RazorAssemblyInfo.cs
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\de\TraversalCoreProject.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\en\TraversalCoreProject.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\es\TraversalCoreProject.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\fr\TraversalCoreProject.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\tr\TraversalCoreProject.resources.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\staticwebassets\msbuild.TraversalCoreProject.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\staticwebassets\msbuild.build.TraversalCoreProject.props
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.TraversalCoreProject.props
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.TraversalCoreProject.props
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\scopedcss\bundle\TraversalCoreProject.styles.css
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\scopedcss\projectbundle\TraversalCoreProject.bundle.scp.css
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.csproj.CopyComplete
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.genruntimeconfig.cache
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\ref\TraversalCoreProject.dll
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.csproj.AssemblyReference.cache
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.GeneratedMSBuildEditorConfig.editorconfig
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.AssemblyInfoInputs.cache
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.AssemblyInfo.cs
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.csproj.CoreCompileInputs.cache
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.MvcApplicationPartsAssemblyInfo.cache
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.RazorAssemblyInfo.cache
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.RazorAssemblyInfo.cs
+C:/TraversalCoreProject/bin/Debug/net7.0/appsettings.Development.json
+C:/TraversalCoreProject/bin/Debug/net7.0/appsettings.json
+C:/TraversalCoreProject/bin/Debug/net7.0/TraversalCoreProject.staticwebassets.runtime.json
+C:/TraversalCoreProject/bin/Debug/net7.0/TraversalCoreProject.exe
+C:/TraversalCoreProject/bin/Debug/net7.0/TraversalCoreProject.deps.json
+C:/TraversalCoreProject/bin/Debug/net7.0/TraversalCoreProject.runtimeconfig.json
+C:/TraversalCoreProject/bin/Debug/net7.0/TraversalCoreProject.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/TraversalCoreProject.pdb
+C:/TraversalCoreProject/bin/Debug/net7.0/AutoMapper.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Azure.Core.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Azure.Identity.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/BouncyCastle.Cryptography.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ClosedXML.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/DocumentFormat.OpenXml.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/EPPlus.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/EPPlus.Interfaces.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/EPPlus.System.Drawing.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ExcelNumberFormat.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/FluentValidation.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/FluentValidation.AspNetCore.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/FluentValidation.DependencyInjectionExtensions.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Humanizer.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Irony.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/iTextSharp.LGPLv2.Core.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/MailKit.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/MediatR.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/MediatR.Contracts.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.AspNetCore.Razor.Language.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Build.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Build.Framework.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.Features.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.Elfie.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.Features.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.Razor.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.Scripting.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.Workspaces.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.DiaSymReader.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.DotNet.Scaffolding.Shared.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Extensions.Identity.Core.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IO.RecyclableMemoryStream.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.NET.StringTools.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/dotnet-aspnet-codegenerator-design.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/MimeKit.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Mono.TextTemplating.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Newtonsoft.Json.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/NuGet.Common.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/NuGet.Configuration.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/NuGet.DependencyResolver.Core.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/NuGet.Frameworks.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/NuGet.LibraryModel.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/NuGet.Packaging.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/NuGet.ProjectModel.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/NuGet.Protocol.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/NuGet.Versioning.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Serilog.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Serilog.Extensions.Logging.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Serilog.Extensions.Logging.File.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Serilog.Formatting.Compact.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Serilog.Sinks.Async.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Serilog.Sinks.File.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/Serilog.Sinks.RollingFile.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/SixLabors.Fonts.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/SkiaSharp.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/System.CodeDom.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/System.Composition.AttributedModel.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/System.Composition.Convention.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/System.Composition.Hosting.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/System.Composition.Runtime.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/System.Composition.TypedParts.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/System.Drawing.Common.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/System.IO.Packaging.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/System.Memory.Data.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/System.Reflection.MetadataLoadContext.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/System.Runtime.Caching.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/System.Security.Cryptography.Pkcs.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/System.Security.Permissions.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/System.Windows.Extensions.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/XLParser.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/xunit.abstractions.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/xunit.core.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/af/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ar/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/az/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/bg/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/bn-BD/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/cs/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/da/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/de/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/el/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/es/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/fa/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/fi-FI/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/fr/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/fr-BE/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/he/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/hr/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/hu/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/hy/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/id/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/is/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/it/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ja/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ko-KR/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ku/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/lv/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ms-MY/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/mt/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/nb/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/nb-NO/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/nl/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/pl/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/pt/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ro/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ru/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/sk/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/sl/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/sr/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/sr-Latn/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/sv/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/th-TH/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/tr/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/uk/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/uz-Cyrl-UZ/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/uz-Latn-UZ/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/vi/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/zh-CN/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Humanizer.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/runtimes/osx/native/libSkiaSharp.dylib
+C:/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-arm64/native/libSkiaSharp.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-x64/native/libSkiaSharp.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-x86/native/libSkiaSharp.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Drawing.Common.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/BusinessLayer.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/DataAccessLayer.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/DTOLayer.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/EntityLayer.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/BusinessLayer.pdb
+C:/TraversalCoreProject/bin/Debug/net7.0/DataAccessLayer.pdb
+C:/TraversalCoreProject/bin/Debug/net7.0/DTOLayer.pdb
+C:/TraversalCoreProject/bin/Debug/net7.0/EntityLayer.pdb
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.MvcApplicationPartsAssemblyInfo.cs
+C:/TraversalCoreProject/obj/Debug/net7.0/staticwebassets/msbuild.TraversalCoreProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:/TraversalCoreProject/obj/Debug/net7.0/staticwebassets/msbuild.build.TraversalCoreProject.props
+C:/TraversalCoreProject/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.TraversalCoreProject.props
+C:/TraversalCoreProject/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.TraversalCoreProject.props
+C:/TraversalCoreProject/obj/Debug/net7.0/staticwebassets.pack.json
+C:/TraversalCoreProject/obj/Debug/net7.0/staticwebassets.build.json
+C:/TraversalCoreProject/obj/Debug/net7.0/staticwebassets.development.json
+C:/TraversalCoreProject/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+C:/TraversalCoreProject/obj/Debug/net7.0/scopedcss/bundle/TraversalCoreProject.styles.css
+C:/TraversalCoreProject/obj/Debug/net7.0/scopedcss/projectbundle/TraversalCoreProject.bundle.scp.css
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.csproj.CopyComplete
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.dll
+C:/TraversalCoreProject/obj/Debug/net7.0/refint/TraversalCoreProject.dll
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.pdb
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.genruntimeconfig.cache
+C:/TraversalCoreProject/obj/Debug/net7.0/ref/TraversalCoreProject.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/de/TraversalCoreProject.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/en/TraversalCoreProject.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/es/TraversalCoreProject.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/fr/TraversalCoreProject.resources.dll
+C:/TraversalCoreProject/bin/Debug/net7.0/tr/TraversalCoreProject.resources.dll
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Information.Index.gr.resources
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Information.Index.de.resources
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Information.Index.en.resources
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Information.Index.es.resources
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Information.Index.fr.resources
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Information.Index.tr.resources
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.csproj.GenerateResource.cache
+C:/TraversalCoreProject/obj/Debug/net7.0/de/TraversalCoreProject.resources.dll
+C:/TraversalCoreProject/obj/Debug/net7.0/en/TraversalCoreProject.resources.dll
+C:/TraversalCoreProject/obj/Debug/net7.0/es/TraversalCoreProject.resources.dll
+C:/TraversalCoreProject/obj/Debug/net7.0/fr/TraversalCoreProject.resources.dll
+C:/TraversalCoreProject/obj/Debug/net7.0/tr/TraversalCoreProject.resources.dll
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Shared._MemberLayout.en.resources
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Shared._MemberLayout.tr.resources
+C:/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Shared._MemberLayout.fr.resources
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/refint/TraversalCoreProject.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.pdb
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/appsettings.Development.json
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/appsettings.json
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/TraversalCoreProject.staticwebassets.runtime.json
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/TraversalCoreProject.exe
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/TraversalCoreProject.deps.json
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/TraversalCoreProject.runtimeconfig.json
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/TraversalCoreProject.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/TraversalCoreProject.pdb
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/de/TraversalCoreProject.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/en/TraversalCoreProject.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/es/TraversalCoreProject.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/fr/TraversalCoreProject.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/tr/TraversalCoreProject.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/AutoMapper.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Azure.Core.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Azure.Identity.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/BouncyCastle.Cryptography.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ClosedXML.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/DocumentFormat.OpenXml.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/EPPlus.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/EPPlus.Interfaces.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/EPPlus.System.Drawing.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ExcelNumberFormat.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/FluentValidation.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/FluentValidation.AspNetCore.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/FluentValidation.DependencyInjectionExtensions.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Humanizer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Irony.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/iTextSharp.LGPLv2.Core.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/MailKit.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/MediatR.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/MediatR.Contracts.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.AspNetCore.Razor.Language.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Build.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Build.Framework.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.Features.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.Elfie.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.Features.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.Razor.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.Scripting.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.Workspaces.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.DiaSymReader.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.DotNet.Scaffolding.Shared.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Extensions.Identity.Core.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IO.RecyclableMemoryStream.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.NET.StringTools.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/dotnet-aspnet-codegenerator-design.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/MimeKit.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Mono.TextTemplating.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Newtonsoft.Json.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/NuGet.Common.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/NuGet.Configuration.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/NuGet.DependencyResolver.Core.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/NuGet.Frameworks.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/NuGet.LibraryModel.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/NuGet.Packaging.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/NuGet.ProjectModel.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/NuGet.Protocol.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/NuGet.Versioning.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Serilog.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Serilog.Extensions.Logging.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Serilog.Extensions.Logging.File.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Serilog.Formatting.Compact.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Serilog.Sinks.Async.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Serilog.Sinks.File.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/Serilog.Sinks.RollingFile.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/SixLabors.Fonts.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/SkiaSharp.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/System.CodeDom.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/System.Composition.AttributedModel.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/System.Composition.Convention.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/System.Composition.Hosting.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/System.Composition.Runtime.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/System.Composition.TypedParts.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/System.Drawing.Common.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/System.IO.Packaging.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/System.Memory.Data.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/System.Reflection.MetadataLoadContext.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/System.Runtime.Caching.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/System.Security.Cryptography.Pkcs.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/System.Security.Permissions.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/System.Windows.Extensions.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/XLParser.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/xunit.abstractions.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/xunit.core.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/af/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ar/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/az/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/bg/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/bn-BD/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/cs/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/da/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/de/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/el/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/es/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/fa/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/fi-FI/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/fr/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/fr-BE/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/he/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/hr/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/hu/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/hy/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/id/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/is/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/it/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ja/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ko-KR/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ku/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/lv/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ms-MY/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/mt/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/nb/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/nb-NO/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/nl/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/pl/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/pt/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ro/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ru/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/sk/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/sl/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/sr/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/sr-Latn/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/sv/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/th-TH/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/tr/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/uk/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/uz-Cyrl-UZ/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/uz-Latn-UZ/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/vi/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/zh-CN/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Humanizer.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/runtimes/osx/native/libSkiaSharp.dylib
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-arm64/native/libSkiaSharp.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-x64/native/libSkiaSharp.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-x86/native/libSkiaSharp.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Drawing.Common.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/BusinessLayer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/DataAccessLayer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/DTOLayer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/EntityLayer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/BusinessLayer.pdb
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/DataAccessLayer.pdb
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/DTOLayer.pdb
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/bin/Debug/net7.0/EntityLayer.pdb
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.csproj.AssemblyReference.cache
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Information.Index.gr.resources
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Information.Index.de.resources
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Information.Index.en.resources
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Information.Index.es.resources
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Information.Index.fr.resources
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Information.Index.tr.resources
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Shared._MemberLayout.en.resources
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Shared._MemberLayout.fr.resources
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Shared._MemberLayout.tr.resources
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.csproj.GenerateResource.cache
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.AssemblyInfoInputs.cache
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.AssemblyInfo.cs
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.csproj.CoreCompileInputs.cache
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.RazorAssemblyInfo.cache
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.RazorAssemblyInfo.cs
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/de/TraversalCoreProject.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/en/TraversalCoreProject.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/es/TraversalCoreProject.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/fr/TraversalCoreProject.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/tr/TraversalCoreProject.resources.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/staticwebassets.build.json
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/staticwebassets.development.json
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/staticwebassets/msbuild.TraversalCoreProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/staticwebassets/msbuild.build.TraversalCoreProject.props
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.TraversalCoreProject.props
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.TraversalCoreProject.props
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/staticwebassets.pack.json
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/scopedcss/bundle/TraversalCoreProject.styles.css
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/scopedcss/projectbundle/TraversalCoreProject.bundle.scp.css
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.csproj.CopyComplete
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.genruntimeconfig.cache
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/TraversalCoreProject/obj/Debug/net7.0/ref/TraversalCoreProject.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.csproj.AssemblyReference.cache
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Information.Index.gr.resources
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Information.Index.de.resources
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Information.Index.en.resources
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Information.Index.es.resources
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Information.Index.fr.resources
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Information.Index.tr.resources
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Shared._MemberLayout.en.resources
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Shared._MemberLayout.fr.resources
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.Resources.Views.Shared._MemberLayout.tr.resources
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.csproj.GenerateResource.cache
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.AssemblyInfoInputs.cache
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.AssemblyInfo.cs
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.csproj.CoreCompileInputs.cache
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.MvcApplicationPartsAssemblyInfo.cs
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.MvcApplicationPartsAssemblyInfo.cache
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.RazorAssemblyInfo.cache
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.RazorAssemblyInfo.cs
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.sourcelink.json
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/refint/TraversalCoreProject.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.pdb
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/appsettings.Development.json
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/appsettings.json
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/TraversalCoreProject.staticwebassets.runtime.json
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/TraversalCoreProject
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/TraversalCoreProject.deps.json
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/TraversalCoreProject.runtimeconfig.json
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/TraversalCoreProject.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/TraversalCoreProject.pdb
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/de/TraversalCoreProject.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/en/TraversalCoreProject.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/es/TraversalCoreProject.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/fr/TraversalCoreProject.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/tr/TraversalCoreProject.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/AutoMapper.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Azure.Core.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Azure.Identity.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/BouncyCastle.Cryptography.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ClosedXML.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/DocumentFormat.OpenXml.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/EPPlus.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/EPPlus.Interfaces.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/EPPlus.System.Drawing.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ExcelNumberFormat.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/FluentValidation.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/FluentValidation.AspNetCore.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Humanizer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Irony.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/iTextSharp.LGPLv2.Core.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/MailKit.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/MediatR.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/MediatR.Contracts.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.AspNetCore.Razor.Language.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Build.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Build.Framework.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.Features.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.Elfie.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.Features.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.Razor.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.Scripting.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.DiaSymReader.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.DotNet.Scaffolding.Shared.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Extensions.Identity.Core.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.IO.RecyclableMemoryStream.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.NET.StringTools.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/dotnet-aspnet-codegenerator-design.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/MimeKit.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/NuGet.Common.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/NuGet.Configuration.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/NuGet.DependencyResolver.Core.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/NuGet.Frameworks.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/NuGet.LibraryModel.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/NuGet.Packaging.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/NuGet.ProjectModel.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/NuGet.Protocol.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/NuGet.Versioning.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Serilog.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Serilog.Extensions.Logging.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Serilog.Extensions.Logging.File.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Serilog.Formatting.Compact.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Serilog.Sinks.Async.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Serilog.Sinks.File.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/Serilog.Sinks.RollingFile.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/SixLabors.Fonts.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/SkiaSharp.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/System.CodeDom.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/System.Composition.AttributedModel.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/System.Composition.Convention.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/System.Composition.Hosting.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/System.Composition.Runtime.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/System.Composition.TypedParts.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/System.Drawing.Common.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/System.IO.Packaging.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/System.Memory.Data.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/System.Reflection.MetadataLoadContext.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/System.Runtime.Caching.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/System.Security.Cryptography.Pkcs.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/System.Security.Permissions.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/System.Windows.Extensions.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/XLParser.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/xunit.abstractions.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/xunit.core.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/af/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ar/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/az/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/bg/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/bn-BD/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/cs/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/da/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/de/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/el/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/es/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/fa/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/fi-FI/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/fr/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/fr-BE/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/he/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/hr/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/hu/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/hy/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/id/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/is/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/it/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ja/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ko-KR/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ku/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/lv/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ms-MY/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/mt/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/nb/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/nb-NO/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/nl/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/pl/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/pt/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ro/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ru/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/sk/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/sl/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/sr/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/sr-Latn/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/sv/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/th-TH/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/tr/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/uk/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/uz-Cyrl-UZ/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/uz-Latn-UZ/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/vi/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/zh-CN/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Humanizer.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/runtimes/osx/native/libSkiaSharp.dylib
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-arm64/native/libSkiaSharp.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-x64/native/libSkiaSharp.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win-x86/native/libSkiaSharp.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Drawing.Common.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/BusinessLayer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/DataAccessLayer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/DTOLayer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/EntityLayer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/BusinessLayer.pdb
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/DataAccessLayer.pdb
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/DTOLayer.pdb
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/bin/Debug/net7.0/EntityLayer.pdb
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/de/TraversalCoreProject.resources.cs
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/de/TraversalCoreProject.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/en/TraversalCoreProject.resources.cs
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/en/TraversalCoreProject.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/es/TraversalCoreProject.resources.cs
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/es/TraversalCoreProject.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/fr/TraversalCoreProject.resources.cs
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/fr/TraversalCoreProject.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/tr/TraversalCoreProject.resources.cs
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/tr/TraversalCoreProject.resources.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/staticwebassets.build.json
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/staticwebassets.development.json
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/staticwebassets/msbuild.TraversalCoreProject.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/staticwebassets/msbuild.build.TraversalCoreProject.props
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.TraversalCoreProject.props
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.TraversalCoreProject.props
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/scopedcss/bundle/TraversalCoreProject.styles.css
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/scopedcss/projectbundle/TraversalCoreProject.bundle.scp.css
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/Traversa.9A2B884D.Up2Date
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/TraversalCoreProject.genruntimeconfig.cache
+/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/obj/Debug/net7.0/ref/TraversalCoreProject.dll

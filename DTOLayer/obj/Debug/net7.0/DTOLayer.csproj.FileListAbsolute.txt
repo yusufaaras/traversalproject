@@ -1,30 +1,46 @@
-C:\DTOLayer\bin\Debug\net7.0\DTOLayer.deps.json
-C:\DTOLayer\bin\Debug\net7.0\DTOLayer.dll
-C:\DTOLayer\bin\Debug\net7.0\DTOLayer.pdb
-C:\DTOLayer\obj\Debug\net7.0\DTOLayer.csproj.AssemblyReference.cache
-C:\DTOLayer\obj\Debug\net7.0\DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
-C:\DTOLayer\obj\Debug\net7.0\DTOLayer.AssemblyInfoInputs.cache
-C:\DTOLayer\obj\Debug\net7.0\DTOLayer.AssemblyInfo.cs
-C:\DTOLayer\obj\Debug\net7.0\DTOLayer.csproj.CoreCompileInputs.cache
-C:\DTOLayer\obj\Debug\net7.0\DTOLayer.dll
-C:\DTOLayer\obj\Debug\net7.0\refint\DTOLayer.dll
-C:\DTOLayer\obj\Debug\net7.0\DTOLayer.pdb
-C:\DTOLayer\obj\Debug\net7.0\ref\DTOLayer.dll
-C:\DTOLayer\bin\Debug\net7.0\EntityLayer.dll
-C:\DTOLayer\bin\Debug\net7.0\EntityLayer.pdb
-C:\DTOLayer\obj\Debug\net7.0\DTOLayer.csproj.CopyComplete
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DTOLayer\bin\Debug\net7.0\DTOLayer.deps.json
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DTOLayer\bin\Debug\net7.0\DTOLayer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DTOLayer\bin\Debug\net7.0\DTOLayer.pdb
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DTOLayer\bin\Debug\net7.0\EntityLayer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DTOLayer\bin\Debug\net7.0\EntityLayer.pdb
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\DTOLayer.csproj.AssemblyReference.cache
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\DTOLayer.AssemblyInfoInputs.cache
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\DTOLayer.AssemblyInfo.cs
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\DTOLayer.csproj.CoreCompileInputs.cache
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\DTOLayer.csproj.CopyComplete
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\DTOLayer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\refint\DTOLayer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\DTOLayer.pdb
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\ref\DTOLayer.dll
+C:/DTOLayer/bin/Debug/net7.0/DTOLayer.deps.json
+C:/DTOLayer/bin/Debug/net7.0/DTOLayer.dll
+C:/DTOLayer/bin/Debug/net7.0/DTOLayer.pdb
+C:/DTOLayer/obj/Debug/net7.0/DTOLayer.csproj.AssemblyReference.cache
+C:/DTOLayer/obj/Debug/net7.0/DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:/DTOLayer/obj/Debug/net7.0/DTOLayer.AssemblyInfoInputs.cache
+C:/DTOLayer/obj/Debug/net7.0/DTOLayer.AssemblyInfo.cs
+C:/DTOLayer/obj/Debug/net7.0/DTOLayer.csproj.CoreCompileInputs.cache
+C:/DTOLayer/obj/Debug/net7.0/DTOLayer.dll
+C:/DTOLayer/obj/Debug/net7.0/refint/DTOLayer.dll
+C:/DTOLayer/obj/Debug/net7.0/DTOLayer.pdb
+C:/DTOLayer/obj/Debug/net7.0/ref/DTOLayer.dll
+C:/DTOLayer/bin/Debug/net7.0/EntityLayer.dll
+C:/DTOLayer/bin/Debug/net7.0/EntityLayer.pdb
+C:/DTOLayer/obj/Debug/net7.0/DTOLayer.csproj.CopyComplete
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DTOLayer/bin/Debug/net7.0/DTOLayer.deps.json
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DTOLayer/bin/Debug/net7.0/DTOLayer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DTOLayer/bin/Debug/net7.0/DTOLayer.pdb
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DTOLayer/bin/Debug/net7.0/EntityLayer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DTOLayer/bin/Debug/net7.0/EntityLayer.pdb
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DTOLayer/obj/Debug/net7.0/DTOLayer.csproj.AssemblyReference.cache
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DTOLayer/obj/Debug/net7.0/DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DTOLayer/obj/Debug/net7.0/DTOLayer.AssemblyInfoInputs.cache
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DTOLayer/obj/Debug/net7.0/DTOLayer.AssemblyInfo.cs
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DTOLayer/obj/Debug/net7.0/DTOLayer.csproj.CoreCompileInputs.cache
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DTOLayer/obj/Debug/net7.0/DTOLayer.csproj.CopyComplete
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DTOLayer/obj/Debug/net7.0/DTOLayer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DTOLayer/obj/Debug/net7.0/refint/DTOLayer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DTOLayer/obj/Debug/net7.0/DTOLayer.pdb
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/DTOLayer/obj/Debug/net7.0/ref/DTOLayer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/DTOLayer/bin/Debug/net7.0/DTOLayer.deps.json
+/Users/aliunnab/Documents/GitHub/traversalproject/DTOLayer/bin/Debug/net7.0/DTOLayer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/DTOLayer/bin/Debug/net7.0/DTOLayer.pdb
+/Users/aliunnab/Documents/GitHub/traversalproject/DTOLayer/bin/Debug/net7.0/EntityLayer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/DTOLayer/bin/Debug/net7.0/EntityLayer.pdb
+/Users/aliunnab/Documents/GitHub/traversalproject/DTOLayer/obj/Debug/net7.0/DTOLayer.csproj.AssemblyReference.cache
+/Users/aliunnab/Documents/GitHub/traversalproject/DTOLayer/obj/Debug/net7.0/DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aliunnab/Documents/GitHub/traversalproject/DTOLayer/obj/Debug/net7.0/DTOLayer.AssemblyInfoInputs.cache
+/Users/aliunnab/Documents/GitHub/traversalproject/DTOLayer/obj/Debug/net7.0/DTOLayer.AssemblyInfo.cs
+/Users/aliunnab/Documents/GitHub/traversalproject/DTOLayer/obj/Debug/net7.0/DTOLayer.csproj.CoreCompileInputs.cache
+/Users/aliunnab/Documents/GitHub/traversalproject/DTOLayer/obj/Debug/net7.0/DTOLayer.sourcelink.json
+/Users/aliunnab/Documents/GitHub/traversalproject/DTOLayer/obj/Debug/net7.0/DTOLayer.csproj.Up2Date
+/Users/aliunnab/Documents/GitHub/traversalproject/DTOLayer/obj/Debug/net7.0/DTOLayer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/DTOLayer/obj/Debug/net7.0/refint/DTOLayer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/DTOLayer/obj/Debug/net7.0/DTOLayer.pdb
+/Users/aliunnab/Documents/GitHub/traversalproject/DTOLayer/obj/Debug/net7.0/ref/DTOLayer.dll

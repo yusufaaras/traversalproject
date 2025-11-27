@@ -1,28 +1,43 @@
-C:\EntityLayer\bin\Debug\net7.0\EntityLayer.deps.json
-C:\EntityLayer\bin\Debug\net7.0\EntityLayer.runtimeconfig.json
-C:\EntityLayer\bin\Debug\net7.0\EntityLayer.dll
-C:\EntityLayer\bin\Debug\net7.0\EntityLayer.pdb
-C:\EntityLayer\obj\Debug\net7.0\EntityLayer.csproj.AssemblyReference.cache
-C:\EntityLayer\obj\Debug\net7.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
-C:\EntityLayer\obj\Debug\net7.0\EntityLayer.AssemblyInfoInputs.cache
-C:\EntityLayer\obj\Debug\net7.0\EntityLayer.AssemblyInfo.cs
-C:\EntityLayer\obj\Debug\net7.0\EntityLayer.csproj.CoreCompileInputs.cache
-C:\EntityLayer\obj\Debug\net7.0\EntityLayer.dll
-C:\EntityLayer\obj\Debug\net7.0\refint\EntityLayer.dll
-C:\EntityLayer\obj\Debug\net7.0\EntityLayer.pdb
-C:\EntityLayer\obj\Debug\net7.0\EntityLayer.genruntimeconfig.cache
-C:\EntityLayer\obj\Debug\net7.0\ref\EntityLayer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\EntityLayer\bin\Debug\net7.0\EntityLayer.deps.json
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\EntityLayer\bin\Debug\net7.0\EntityLayer.runtimeconfig.json
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\EntityLayer\bin\Debug\net7.0\EntityLayer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\EntityLayer\bin\Debug\net7.0\EntityLayer.pdb
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\EntityLayer.csproj.AssemblyReference.cache
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\EntityLayer.AssemblyInfoInputs.cache
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\EntityLayer.AssemblyInfo.cs
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\EntityLayer.csproj.CoreCompileInputs.cache
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\EntityLayer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\refint\EntityLayer.dll
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\EntityLayer.pdb
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\EntityLayer.genruntimeconfig.cache
-C:\Users\Yusuf ARAS\OneDrive\Masaüstü\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\ref\EntityLayer.dll
+C:/EntityLayer/bin/Debug/net7.0/EntityLayer.deps.json
+C:/EntityLayer/bin/Debug/net7.0/EntityLayer.runtimeconfig.json
+C:/EntityLayer/bin/Debug/net7.0/EntityLayer.dll
+C:/EntityLayer/bin/Debug/net7.0/EntityLayer.pdb
+C:/EntityLayer/obj/Debug/net7.0/EntityLayer.csproj.AssemblyReference.cache
+C:/EntityLayer/obj/Debug/net7.0/EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:/EntityLayer/obj/Debug/net7.0/EntityLayer.AssemblyInfoInputs.cache
+C:/EntityLayer/obj/Debug/net7.0/EntityLayer.AssemblyInfo.cs
+C:/EntityLayer/obj/Debug/net7.0/EntityLayer.csproj.CoreCompileInputs.cache
+C:/EntityLayer/obj/Debug/net7.0/EntityLayer.dll
+C:/EntityLayer/obj/Debug/net7.0/refint/EntityLayer.dll
+C:/EntityLayer/obj/Debug/net7.0/EntityLayer.pdb
+C:/EntityLayer/obj/Debug/net7.0/EntityLayer.genruntimeconfig.cache
+C:/EntityLayer/obj/Debug/net7.0/ref/EntityLayer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/EntityLayer/bin/Debug/net7.0/EntityLayer.deps.json
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/EntityLayer/bin/Debug/net7.0/EntityLayer.runtimeconfig.json
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/EntityLayer/bin/Debug/net7.0/EntityLayer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/EntityLayer/bin/Debug/net7.0/EntityLayer.pdb
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/EntityLayer/obj/Debug/net7.0/EntityLayer.csproj.AssemblyReference.cache
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/EntityLayer/obj/Debug/net7.0/EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/EntityLayer/obj/Debug/net7.0/EntityLayer.AssemblyInfoInputs.cache
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/EntityLayer/obj/Debug/net7.0/EntityLayer.AssemblyInfo.cs
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/EntityLayer/obj/Debug/net7.0/EntityLayer.csproj.CoreCompileInputs.cache
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/EntityLayer/obj/Debug/net7.0/EntityLayer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/EntityLayer/obj/Debug/net7.0/refint/EntityLayer.dll
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/EntityLayer/obj/Debug/net7.0/EntityLayer.pdb
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/EntityLayer/obj/Debug/net7.0/EntityLayer.genruntimeconfig.cache
+C:/Users/Yusuf ARAS/OneDrive/Masaüstü/TraversalCoreProject/EntityLayer/obj/Debug/net7.0/ref/EntityLayer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/EntityLayer/bin/Debug/net7.0/EntityLayer.deps.json
+/Users/aliunnab/Documents/GitHub/traversalproject/EntityLayer/bin/Debug/net7.0/EntityLayer.runtimeconfig.json
+/Users/aliunnab/Documents/GitHub/traversalproject/EntityLayer/bin/Debug/net7.0/EntityLayer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/EntityLayer/bin/Debug/net7.0/EntityLayer.pdb
+/Users/aliunnab/Documents/GitHub/traversalproject/EntityLayer/obj/Debug/net7.0/EntityLayer.csproj.AssemblyReference.cache
+/Users/aliunnab/Documents/GitHub/traversalproject/EntityLayer/obj/Debug/net7.0/EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aliunnab/Documents/GitHub/traversalproject/EntityLayer/obj/Debug/net7.0/EntityLayer.AssemblyInfoInputs.cache
+/Users/aliunnab/Documents/GitHub/traversalproject/EntityLayer/obj/Debug/net7.0/EntityLayer.AssemblyInfo.cs
+/Users/aliunnab/Documents/GitHub/traversalproject/EntityLayer/obj/Debug/net7.0/EntityLayer.csproj.CoreCompileInputs.cache
+/Users/aliunnab/Documents/GitHub/traversalproject/EntityLayer/obj/Debug/net7.0/EntityLayer.sourcelink.json
+/Users/aliunnab/Documents/GitHub/traversalproject/EntityLayer/obj/Debug/net7.0/EntityLayer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/EntityLayer/obj/Debug/net7.0/refint/EntityLayer.dll
+/Users/aliunnab/Documents/GitHub/traversalproject/EntityLayer/obj/Debug/net7.0/EntityLayer.pdb
+/Users/aliunnab/Documents/GitHub/traversalproject/EntityLayer/obj/Debug/net7.0/EntityLayer.genruntimeconfig.cache
+/Users/aliunnab/Documents/GitHub/traversalproject/EntityLayer/obj/Debug/net7.0/ref/EntityLayer.dll
