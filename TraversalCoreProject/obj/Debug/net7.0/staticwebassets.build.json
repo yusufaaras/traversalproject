@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hi0xU2EcFUuU60eTniIbuJKLH642a6+x8C/5mD3kc9c=",
+  "Hash": "TcR+sbpm98ILUNk8EhMKGEUg6okWe54RhDhyrk9kTzQ=",
   "Source": "TraversalCoreProject",
   "BasePath": "_content/TraversalCoreProject",
   "Mode": "Default",
@@ -3587,6 +3587,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Login_v1/vendor/tilt/tilt.jquery.min.js"
+    },
+    {
+      "Identity": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/Logo.png",
+      "SourceId": "TraversalCoreProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/",
+      "BasePath": "_content/TraversalCoreProject",
+      "RelativePath": "Logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Logo.png"
     },
     {
       "Identity": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/member/.gitignore",

@@ -86,6 +86,23 @@ namespace TraversalCoreProject.Controllers
             }
             return View();
         }
+        
+        [HttpGet]
+        public async Task<IActionResult> LogOut(int reservation = 0)
+        {
+            // Oturumu bitir
+            await _SignInManager.SignOutAsync();
+
+            // Eğer reservation == 1 ise ana sayfaya fragment ile yönlendir
+            if (reservation == 1)
+            {
+                // Fragment server tarafında eklenebilir; tarayıcı redirect ettiğinde hash ile gider
+                return Redirect("/Default/Index#newReservation");
+            }
+
+            // Normal logout yönlendirmesi
+            return RedirectToAction("Index", "Default");
+        }
 
         //[HttpPost]
         //public async Task <IActionResult> SignIn(UserSignInViewModel p)

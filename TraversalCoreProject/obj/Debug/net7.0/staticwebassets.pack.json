@@ -429,6 +429,10 @@
       "PackagePath": "staticwebassets/Login_v1/vendor/tilt/tilt.jquery.min.js"
     },
     {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/Logo.png",
+      "PackagePath": "staticwebassets/Logo.png"
+    },
+    {
       "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/Traversal-Liberty/about.html",
       "PackagePath": "staticwebassets/Traversal-Liberty/about.html"
     },

@@ -3,6 +3,7 @@ using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFreamework;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace TraversalCoreProject.Areas.Admin.Controllers
 {
@@ -15,7 +16,7 @@ namespace TraversalCoreProject.Areas.Admin.Controllers
         {
             _destinationService = destinationService;
         }
-
+    
         public IActionResult Index()
         {
             var values = _destinationService.GetList();
@@ -24,8 +25,18 @@ namespace TraversalCoreProject.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult AddDestination()
         {
+            // Guide servisinden rehber listesini çek
+            // Buradaki _guideService örneği, senin GuidesController'daki servisin aynısıdır.
+            IGuideService guideService = new GuideManager(new EfGuideDal());
+            var guideList = guideService.GetList()
+                .Select(x => new SelectListItem
+                {
+                    Text = x.Name,    
+                    Value = x.GuideId.ToString()   
+                }).ToList();
+            ViewBag.Guides = guideList;
             return View();
-        }
+        } 
 
         [HttpPost]
         public IActionResult AddDestination (Destination_yerler destination)
