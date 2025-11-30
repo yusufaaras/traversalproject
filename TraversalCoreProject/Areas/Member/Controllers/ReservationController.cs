@@ -14,7 +14,6 @@ namespace TraversalCoreProject.Areas.Member.Controllers
         DestinationManager destinationManager = new DestinationManager(new EfDestinationDal());
         ReservationManager reservationManager = new ReservationManager(new EfReservationDal());
         private readonly UserManager<AppUser> _userManager;
-
         public ReservationController(UserManager<AppUser> userManager)
         {
             _userManager = userManager;
@@ -41,21 +40,58 @@ namespace TraversalCoreProject.Areas.Member.Controllers
         [HttpGet]
         public IActionResult NewReservation()
         {
-            List<SelectListItem> values = (from x in destinationManager.GetList()
-                                           select new SelectListItem
-                                           {
-                                               Text = x.City,
-                                               Value = x.DestinationId.ToString()
-                                           }).ToList();
-            ViewBag.v = values;
-
+            var values = destinationManager.GetList();
+            List<SelectListItem> items = values.Select(x => new SelectListItem
+            {
+                Text = x.City,
+                Value = x.DestinationId.ToString()
+            }).ToList();
+            ViewBag.v = items;
             return View();
         }
         [HttpPost]
-        public IActionResult NewReservation(Reservation p)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> NewReservation(Reservation p)
         {
-            p.AppUserId = 8;
+            // dropdown tekrar doldurma (hata döndüğünde view için gerekli)
+            var values = destinationManager.GetList();
+            ViewBag.v = values.Select(x => new SelectListItem
+            {
+                Text = x.City,
+                Value = x.DestinationId.ToString()
+            }).ToList();
+
+            if (!ModelState.IsValid)
+            {
+                return View(p);
+            }
+
+            // seçilen destinationId gelmiş mi kontrolü
+            if (p.DestinationId <= 0)
+            {
+                ModelState.AddModelError("DestinationId", "Lütfen geçerli bir lokasyon seçin.");
+                return View(p);
+            }
+
+            // DB'de seçilen destinasyonun varlığını kontrol et
+            var selectedDestination = values.FirstOrDefault(d => d.DestinationId == p.DestinationId);
+            if (selectedDestination == null)
+            {
+                ModelState.AddModelError("DestinationId", "Seçilen lokasyon veritabanında bulunamadı.");
+                return View(p);
+            }
+
+            // kullanıcı kontrolü
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return RedirectToAction("SignIn", "Login", new { area = "" });
+            }
+
+            // atamalar
+            p.AppUserId = user.Id;
             p.Status = "Onay Bekliyor";
+
             reservationManager.TAdd(p);
             return RedirectToAction("MyCurrentReservation");
         }
@@ -64,5 +100,6 @@ namespace TraversalCoreProject.Areas.Member.Controllers
 
             return View();
         }
-    }
+    } 
+
 }
