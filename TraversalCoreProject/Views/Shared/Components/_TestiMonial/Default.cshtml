@@ -1,44 +1,221 @@
 ﻿@using EntityLayer.Concrete
 @model List<TestiMonial>
 
-<section class="w3l-clients" id="clients">
-    <!-- /grids -->
-    <div class="cusrtomer-layout py-5">
-        <div class="container py-lg-4 py-md-3 pb-lg-0">
-            <div class="heading text-center mx-auto">
-                <h6 class="sub-title text-center">Misafir Yorumlarımız</h6>
-                <h3 class="hny-title mb-md-5 mb-4">Düşünceleriniz Bizim İçin Çok Değerli</h3>
-            </div> 
-            <!-- /grids -->
-            <div class="testimonial-width">
-                <div id="owl-demo1" class="owl-two owl-carousel owl-theme">
-                    @foreach (var item in Model)
-                    {                                 
-                    <div class="item">
-                        <div class="testimonial-content">
-                            <div class="testimonial">
-                                <blockquote>
-                                    <span class="fa fa-quote-left" aria-hidden="true"></span>@item.Comment
-                                </blockquote>
-                                <div class="testi-des">
-                                    <div class="test-img">
-                                        <img src="@item.ClientImage" class="img-fluid" alt="client-img">
-                                    </div>
-                                    <div class="peopl align-self">
-                                        <h3>@item.Client</h3>
-                                        <p class="indentity">Example City</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    }
+@* <section class="w3l-clients" id="clients"> *@
+@*     <!-- /grids --> *@
+@*     <div class="cusrtomer-layout py-5"> *@
+@*         <div class="container py-lg-4 py-md-3 pb-lg-0"> *@
+@*             <div class="heading text-center mx-auto"> *@
+@*                 <h6 class="sub-title text-center">Misafir Yorumlarımız</h6> *@
+@*                 <h3 class="hny-title mb-md-5 mb-4">Düşünceleriniz Bizim İçin Çok Değerli</h3> *@
+@*             </div>  *@
+@*             <!-- /grids --> *@
+@*             <div class="testimonial-width"> *@
+@*                 <div id="owl-demo1" class="owl-two owl-carousel owl-theme"> *@
+@*                     @foreach (var item in Model) *@
+@*                     {                                  *@
+@*                     <div class="item"> *@
+@*                         <div class="testimonial-content"> *@
+@*                             <div class="testimonial"> *@
+@*                                 <blockquote> *@
+@*                                     <span class="fa fa-quote-left" aria-hidden="true"></span>@item.Comment *@
+@*                                 </blockquote> *@
+@*                                 <div class="testi-des"> *@
+@*                                     <div class="test-img"> *@
+@*                                         <img src="@item.ClientImage" class="img-fluid" alt="client-img"> *@
+@*                                     </div> *@
+@*                                     <div class="peopl align-self"> *@
+@*                                         <h3>@item.Client</h3> *@
+@*                                         <p class="indentity">Example City</p> *@
+@*                                     </div> *@
+@*                                 </div> *@
+@*                             </div> *@
+@*                         </div> *@
+@*                     </div> *@
+@*                     } *@
+@* *@
+@*                 </div> *@
+@*             </div> *@
+@*         </div> *@
+@*         <!-- /grids --> *@
+@*     </div> *@
+@*     <!-- //grids --> *@
+@* </section> *@
 
+<section class="w3l-stats-section py-5" id="stats"> <style> .stats-inner-layout { position: relative; display: flex; align-items: center; }
+
+    .stats-img-left {
+        position: relative;
+        z-index: 2;
+        flex: 0 0 45%;
+    }
+
+    .stats-img-left img {
+        border-radius: 8px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        width: 100%;
+        height: 480px;
+        object-fit: cover;
+    }
+
+    .video-play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80px;
+        height: 80px;
+        background: #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #00bcd4;
+        font-size: 24px;
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2);
+        transition: 0.3s;
+        text-decoration: none;
+        z-index: 3;
+    }
+
+    .video-play-button:hover {
+        transform: translate(-50%, -50%) scale(1.1);
+        color: #008fa3;
+        background: #f8f8f8;
+    }
+
+    .stats-right-content {
+        background-color: #00bcd4;
+        color: white;
+        padding: 60px 40px 110px 100px; 
+        border-radius: 10px;
+        margin-left: -60px; 
+        z-index: 1;
+        flex: 0 0 65%;
+    }
+
+    .stats-grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        margin-top: 25px;
+        padding-top: 25px;
+    }
+
+    .stat-item {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .stat-item i {
+        font-size: 32px;
+        opacity: 0.9;
+    }
+
+    .stat-info h4 {
+        font-size: 22px;
+        font-weight: 800;
+        margin: 0;
+    }
+
+    .stat-info p {
+        font-size: 13px;
+        margin: 0;
+        opacity: 0.8;
+        line-height: 1.2;
+    }
+
+    .contact-card-white {
+        background: #fff;
+        padding: 20px 35px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        bottom: -25px;
+        right: 10%;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        z-index: 4;
+    }
+
+    .contact-card-white i {
+        font-size: 40px;
+        color: #00bcd4;
+    }
+
+    .contact-card-white .call-text p {
+        color: #d86a25;
+        margin: 0;
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .contact-card-white .call-text h4 {
+        color: #d86a25;
+        margin: 0;
+        font-weight: 800;
+        font-size: 20px;
+    }
+</style>
+
+<div class="container py-lg-5">
+    <div class="stats-inner-layout row g-0">
+        <div class="col-lg-5 stats-img-left">
+            <img src="~/Traversal-Liberty/assets/images/g8.jpg" alt="VHB City İstanbul" />
+            <a href="[http://youtube.com/watch?v=o9esB3n-GAw](http://youtube.com/watch?v=o9esB3n-GAw)" target="_blank" class="video-play-button">
+                <span class="fa fa-play"></span>
+            </a>
+        </div>
+
+        <div class="col-lg-7 stats-right-content">
+            <h6 class="mb-2" style="letter-spacing: 2px; text-transform: uppercase; color: #d86a25;">Daha Fazlası İçin Arayın</h6>
+            <h2 class="fw-bold mb-4" style="font-size: 32px; color: #d86a25;">VHB CITY İLE ŞEHRİ KEŞFEDİN, BİZİMLE SEYAHAT EDİN!</h2>
+            
+            <p class="mb-3">VHB City, Türkiye'nin en güvenilir ve köklü seyahat acentelerinden biridir. Profesyonel ekibimizle turizm sektöründe; Seyahat Acentesi, Destinasyon Yönetimi (DMC) ve Organizasyon Planlama alanlarında hizmet vermekteyiz.</p>
+            <p class="mb-4">Türkiye genelinde 110 farklı destinasyonda; kültür turları, doğa gezileri ve unutulmaz anılar biriktireceğiniz özel programlarla hizmetinizdeyiz. Misafirimiz olun ve farkı hissedin!</p>
+
+            <div class="stats-grid-container">
+                <div class="stat-item">
+                    <i class="fa fa-users"></i>
+                    <div class="stat-info">
+                        <h4>500+</h4>
+                        <p>Mutlu Misafir</p>
+                    </div>
+                </div>
+                <div class="stat-item" style="border-left: 1px solid rgba(255,255,255,0.2); padding-left: 20px;">
+                    <i class="fa fa-trophy"></i>
+                    <div class="stat-info">
+                        <h4>250+</h4>
+                        <p>Başarılı Tur</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="fa fa-user-plus"></i>
+                    <div class="stat-info">
+                        <h4>15+</h4>
+                        <p>Yıllık Üyelik</p>
+                    </div>
+                </div>
+                <div class="stat-item" style="border-left: 1px solid rgba(255,255,255,0.2); padding-left: 20px;">
+                    <i class="fa fa-map"></i>
+                    <div class="stat-info">
+                        <h4>10+</h4>
+                        <p>Rota Seçeneği</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- /grids -->
-    </div>
-    <!-- //grids -->
-</section>
 
+        <div class="contact-card-white">
+            <i class="fa fa-phone-square"></i>
+            <div class="call-text">
+                <p>7/24 Acil Destek Hattımız</p>
+                <h4>Bize Ulaşın: +90 123 456 78 90</h4>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
