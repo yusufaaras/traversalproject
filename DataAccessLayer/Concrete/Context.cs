@@ -14,7 +14,8 @@ namespace DataAccessLayer.Concrete
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //optionsBuilder.UseSqlServer("server=DESKTOP-S1QPNRR;database=TraversalDb;integrated security=true;TrustServerCertificate=True;");
-            optionsBuilder.UseSqlServer("Server=localhost,1433;Database=TraversalDb;User Id=SA;Password=Yusuf123;Encrypt=False;TrustServerCertificate=True");
+            //  optionsBuilder.UseSqlServer("Server=localhost,1433;Database=TraversalDb;User Id=SA;Password=Yusuf123;Encrypt=False;TrustServerCertificate=True");
+           optionsBuilder.UseSqlServer("server=77.245.159.121\\MSSQLSERVER2022;database=vhbtraveldb;user=Vhbtravel;Password=5W&gHpnnXwn7@8py;Encrypt=True;TrustServerCertificate=True;");
 
         }
 

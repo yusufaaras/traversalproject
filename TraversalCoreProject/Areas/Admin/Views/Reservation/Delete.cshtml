@@ -1,0 +1,29 @@
+@model EntityLayer.Concrete.Reservation
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Rezervasyon Sil";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h4>Rezervasyon #@Model.ReservationId Sil</h4>
+    </div>
+    <div class="card-body">
+        <p>Bu rezervasyonu silmek istediğinize emin misiniz?</p>
+        <dl class="row">
+            <dt class="col-sm-3">Kullanıcı</dt>
+            <dd class="col-sm-9">@Model.AppUser?.Email</dd>
+            <dt class="col-sm-3">Lokasyon</dt>
+            <dd class="col-sm-9">@Model.Destination?.City</dd>
+            <dt class="col-sm-3">Tarih</dt>
+            <dd class="col-sm-9">@Model.ReservationDate.ToString("yyyy-MM-dd")</dd>
+        </dl>
+
+        <form action="/admin/reservation/deleteconfirmed" method="post">
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="id" value="@Model.ReservationId" />
+            <button type="submit" class="btn btn-danger" onclick="return confirm('Silme işlemini onaylıyor musunuz?');">Sil</button>
+            <a class="btn btn-secondary" href="/admin/reservation/index">İptal</a>
+        </form>
+    </div>
+</div>

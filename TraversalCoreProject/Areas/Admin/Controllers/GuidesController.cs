@@ -12,69 +12,84 @@ namespace TraversalCoreProject.Areas.Admin.Controllers
     public class GuidesController : Controller
     {
         private readonly IGuideService _guideService;
+        public GuidesController(IGuideService guideService) { _guideService = guideService; }
 
-        public GuidesController(IGuideService guideService)
-        {
-            _guideService = guideService;
-        }
-        [Route("")]
         [Route("Index")]
-
-        public IActionResult Index()
-        {
-            var values=_guideService.GetList();
-            return View(values);
+        [Route("")]
+        public IActionResult Index() 
+        { 
+            var values = _guideService.GetList(); 
+            return View(values); 
         }
+
         [Route("AddGuide")]
         [HttpGet]
-        public IActionResult AddGuide()
-        {
-            return View();
-        }
+        public IActionResult AddGuide() => View();
+
+        [Route("AddGuide")]
         [HttpPost]
-        public IActionResult AddGuide(Guide guide)
+        public async Task<IActionResult> AddGuide(Guide guide, IFormFile ImageFile)
         {
-            GuideValidator validationRules = new GuideValidator();
-            ValidationResult result=validationRules.Validate(guide);
-            if (result.IsValid)
+            if (ImageFile != null && ImageFile.Length > 0)
             {
+                // Dosya yükleme yolu
+                var resource = Directory.GetCurrentDirectory();
+                var extension = Path.GetExtension(ImageFile.FileName);
+                var imagename = Guid.NewGuid() + extension;
+                var saveLocation = resource + "/wwwroot/guideimages/" + imagename;
+        
+                // Klasör yoksa oluştur
+                var directoryPath = Path.Combine(resource, "wwwroot/guideimages");
+                if (!Directory.Exists(directoryPath)) Directory.CreateDirectory(directoryPath);
+
+                // Dosyayı kaydet
+                using (var stream = new FileStream(saveLocation, FileMode.Create))
+                {
+                    await ImageFile.CopyToAsync(stream);
+                }
+        
+                // Veritabanına kaydedilecek yol
+                guide.Image = "/guideimages/" + imagename;
+            }
+    
+            // Eğer dosya yüklenmemişse, modeldeki 'Image' (URL alanı) zaten dolu gelecektir.
             _guideService.TAdd(guide);
             return RedirectToAction("Index");
-            }
-            else
+        }
+
+        [Route("DeleteGuide/{id}")]
+        public IActionResult DeleteGuide(int id)
+        {
+            var value = _guideService.TGetById(id);
+    
+            // Fiziksel dosyayı silme işlemi
+            if (!string.IsNullOrEmpty(value.Image) && !value.Image.StartsWith("http"))
             {
-                foreach (var item in result.Errors)
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", value.Image.TrimStart('/'));
+                if (System.IO.File.Exists(path))
                 {
-                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                    System.IO.File.Delete(path);
                 }
             }
-            return View();
+
+            _guideService.TDelete(value);
+            return RedirectToAction("Index");
         }
+        // DUZENLEME SAYFASI ACILMIYORDU, ROUTE EKLENDI
+        [Route("EditGuide/{id}")]
         [HttpGet]
         public IActionResult EditGuide(int id)
         {
-            var values= _guideService.TGetById(id);
+            var values = _guideService.TGetById(id);
             return View(values);
         }
+
+        [Route("EditGuide/{id}")]
         [HttpPost]
         public IActionResult EditGuide(Guide guide)
         {
             _guideService.TUpdate(guide);
             return RedirectToAction("Index");
         }
-
-        [Route("ChangeToTrue/{id}")]
-        public IActionResult ChangeToTrue(int id)
-        {
-            _guideService.TChangeToTrueByGuide(id);
-            return RedirectToAction("Index","Guides",new {area="Admin"});
-        }
-        [Route("ChangeToFalse/{id}")]
-        public IActionResult ChangeToFalse(int id)
-        {
-            _guideService.TChangeToFalseByGuide(id);
-            return RedirectToAction("Index", "Guides", new { area = "Admin" });
-        }
-
     }
 }

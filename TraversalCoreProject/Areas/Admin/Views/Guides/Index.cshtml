@@ -7,8 +7,8 @@
 }
 
 <style>
-    img{
-        border-radius:50%;
+    img {
+        border-radius: 50%;
     }
 </style>
 
@@ -20,10 +20,7 @@
         <th>#</th>
         <th>Görsel</th>
         <th>Ad Soyad</th>
-        <th>Açıklama</th>
-        <th>Durum</th>
-        <th>Durum Değiştir</th>
-        <th>Düzenle</th>
+        <th>Açıklama</th>   
         <th>Sil</th>
     </tr>
     @foreach (var item in Model)
@@ -31,34 +28,19 @@
         count++;
         <tr>
             <td>@count</td>
-            <td><img src="@item.Image" height="50" with="50" /></td>
+            <td>
+                @if (!string.IsNullOrEmpty(item.Image))
+                {
+                    <img src="@item.Image" height="50" width="50" style="object-fit: cover;" />
+                }
+                else
+                {
+                    <img src="/Login_v1/images/img-01.png" height="50" width="50" /> }
+            </td>
             <td>@item.Name</td>
-            <td>@item.Description</td>
-            
-                @{
-                    if (item.Status == true)
-                    {
-                        <td class="aktif-item">•Aktif</td>
-                    }
-                    else
-                    {
-                        <td class="pasif-item">•Pasif</td>
-                    }
-                }
-            
-                @{
-                    if (item.Status==true)
-                    {
-                    <td><a href="/Admin/Guides/ChangeTofalse/@item.GuideId" class="btn btn-outline-warning">Pasif Yap</a></td>
-                    }
-                    else
-                    {
-                    <td><a href="/Admin/Guides/ChangeToTrue/@item.GuideId" class="btn btn-outline-info">Aktif Yap</a></td>
-                    }                  
-                }
-            <td><a href="/Admin/Guides/EditGuide/" class="btn btn-outline-success">Düzenle</a></td>
-
-            <td><a href="#" class="btn btn-outline-danger">Sil</a></td>
+            <td>@item.Description</td> 
+            <td><a href="/Admin/Guides/DeleteGuide/@item.GuideId" class="btn btn-outline-danger"
+                   onclick="return confirm('Silmek istediğinize emin misiniz?')">Sil</a></td>
         </tr>
     }
 </table>
@@ -69,9 +51,10 @@
         align-items: center;
     }
 
-    .aktif-item{
-        color:deepskyblue
+    .aktif-item {
+        color: deepskyblue
     }
+
     .pasif-item {
         color: orange;
     }

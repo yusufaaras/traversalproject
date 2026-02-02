@@ -1,0 +1,125 @@
+@using EntityLayer.Concrete
+@model List<Reservation>
+@{
+    ViewData["Title"] = "Rezervasyonlar - Yönetim";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-12">
+        @* --- Gelişmiş Filtreleme Bölümü --- *@
+        <div class="card mb-4 border-primary">
+            <div class="card-body">
+                <form method="get" action="/admin/reservation/index" class="row g-3 align-items-end">
+                    
+                    @* E-posta Arama *@
+                    <div class="col-md-3">
+                        <label class="form-label font-weight-bold">E-posta ile Ara</label>
+                        <input type="text" name="searchEmail" class="form-control" placeholder="user@example.com..." value="@Context.Request.Query["searchEmail"]">
+                    </div>
+
+                    @* Durum Filtresi *@
+                    <div class="col-md-2">
+                        <label class="form-label font-weight-bold">Rezervasyon Durumu</label>
+                        <select name="searchStatus" class="form-control">
+                            <option value="">Tümü</option>
+                            <option value="Onaylandı" selected='@(Context.Request.Query["searchStatus"] == "Onaylandı")'>Onaylandı</option>
+                            <option value="Onay Bekliyor" selected='@(Context.Request.Query["searchStatus"] == "Onay Bekliyor")'>Onay Bekliyor</option>
+                            <option value="Reddedildi" selected='@(Context.Request.Query["searchStatus"] == "Reddedildi")'>Reddedildi</option>
+                        </select>
+                    </div>
+
+                    @* Sıralama Seçenekleri *@
+                    <div class="col-md-3">
+                        <label class="form-label font-weight-bold">Sıralama Ölçütü</label>
+                        <select name="sortOrder" class="form-control">
+                            <option value="">Varsayılan (ID)</option>
+                            <option value="date_asc" selected='@(Context.Request.Query["sortOrder"] == "date_asc")'>Tarih (Eskiden Yeniye)</option>
+                            <option value="date_desc" selected='@(Context.Request.Query["sortOrder"] == "date_desc")'>Tarih (Yeniden Eskiye)</option>
+                            <option value="city_asc" selected='@(Context.Request.Query["sortOrder"] == "city_asc")'>Rota (A-Z)</option>
+                            <option value="city_desc" selected='@(Context.Request.Query["sortOrder"] == "city_desc")'>Rota (Z-A)</option>
+                        </select>
+                    </div>
+
+                    @* Butonlar *@
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-primary px-4">Sorgula</button>
+                        <a href="/admin/reservation/index" class="btn btn-outline-secondary">Filtreleri Kaldır</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        @* ---------------------------------- *@
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h3>Tüm Rezervasyonlar</h3>
+            <a class="btn btn-success" href="/admin/reservation/create">+ Yeni Rezervasyon Ekle</a>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered shadow-sm">
+                <thead class="bg-dark text-white">
+                    <tr>
+                        <th>#</th>
+                        <th>Kullanıcı</th>
+                        <th>Lokasyon</th>
+                        <th>Kişi</th>
+                        <th>Tarih</th>
+                        <th>Durum</th>
+                        <th style="width: 420px;">İşlemler</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.ReservationId</td>
+                                <td>@(item.AppUser != null ? (item.AppUser.Email ?? item.AppUser.UserName) : item.AppUserId.ToString())</td>
+                                <td>@(item.Destination != null ? item.Destination.City : "-")</td>
+                                <td class="text-center">@item.PersonCount</td>
+                                <td>@item.ReservationDate.ToString("yyyy-MM-dd")</td>
+                                <td>
+                                    @if(item.Status == "Onaylandı") { <span class="badge bg-success">Onaylandı</span> }
+                                    else if(item.Status == "Reddedildi") { <span class="badge bg-danger">Reddedildi</span> }
+                                    else { <span class="badge bg-warning text-dark">Onay Bekliyor</span> }
+                                </td>
+                                <td>
+                                    <a class="btn btn-sm btn-info" href="/admin/reservation/details/@item.ReservationId">Detay</a>
+                                    <a class="btn btn-sm btn-warning" href="/admin/reservation/edit/@item.ReservationId">Güncelle</a>
+
+                                    @if (item.Status != "Onaylandı")
+                                    {
+                                        <form action="/admin/reservation/approve" method="post" class="d-inline">
+                                            @Html.AntiForgeryToken()
+                                            <input type="hidden" name="id" value="@item.ReservationId" />
+                                            <button class="btn btn-sm btn-success" type="submit" onclick="return confirm('Onaylıyor musunuz?');">Onayla</button>
+                                        </form>
+                                    }
+
+                                    @if (item.Status != "Reddedildi")
+                                    {
+                                        <form action="/admin/reservation/reject" method="post" class="d-inline ms-1">
+                                            @Html.AntiForgeryToken()
+                                            <input type="hidden" name="id" value="@item.ReservationId" />
+                                            <button class="btn btn-sm btn-danger" type="submit" onclick="return confirm('Reddediyor musunuz?');">Reddet</button>
+                                        </form>
+                                    }
+
+                                    <a class="btn btn-sm btn-secondary ms-1" href="/admin/reservation/delete/@item.ReservationId">Sil</a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="7" class="text-center py-4 text-muted">Arama kriterlerine uygun rezervasyon bulunamadı.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,48 +1,125 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @model List<EntityLayer.Concrete.Guide>
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Rehberlerimiz";
     Layout = "~/Views/Shared/_UILayout.cshtml";
 }
 
-<section class="w3l-team" id="team">
-    <div class="team-block py-5">
-        <div class="container py-lg-5">
-            <div class="title-content text-center mb-lg-3 mb-4">
-                <h6 class="sub-title">Ekip Arkadaşlarımız</h6>
-                <h3 class="hny-title">Rehberlerimizle Tanışın</h3>
-            </div>
-            <div class="row">
-                @foreach (var item in Model)
-                {
-                <div class="col-lg-3 col-6 mt-lg-5 mt-4">
-                    <div class="box16">
-                        <a href="#url"><img src="@item.GuideListImage" style="width:800px; height:330px" alt="" class="img-fluid" /></a>
-                        <div class="box-content">@* 
-                            <h3 class="title"><a href="#url">@item.Name</a></h3> *@
-                                <h3 class="title"><a href="#url">@Html.Name(item.Name)</a></h3>
+<style>
+    /* Kart Genel Yapısı */
+    .guide-card {
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+        margin-bottom: 30px;
+        border: 1px solid #eee;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 25px 15px;
+        width: 100%; /* Kartın sütun genişliğine yayılmasını sağlar */
+    }
 
+    /* Görsel Alanı */
+    .guide-img-wrapper {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 20px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 3px solid #ff6600;
+        flex-shrink: 0;
+    }
 
-                            <span class="post">@item.Description</span>
-                            <ul class="social">
-                                <li>
-                                    <a href="#" class="facebook">
-                                        <span class="fa fa-facebook-f"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="twitter">
-                                        <span class="fa fa-twitter"></span>
-                                    </a>
-                                </li>
-                            </ul>
+    .guide-img-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Bilgi Alanı */
+    .guide-info {
+        text-align: center;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .guide-name {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #2c3e50;
+        margin-bottom: 12px;
+    }
+
+    /* Açıklama Alanı */
+    .guide-desc-container {
+        flex-grow: 1;
+        margin-bottom: 15px;
+    }
+
+    .guide-desc {
+        font-size: 0.95rem;
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .guide-rating {
+        color: #ff6600;
+        font-size: 0.85rem;
+        margin-top: auto;
+        padding-top: 10px;
+    }
+
+    .guide-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        border-color: #ff6600;
+    }
+</style>
+
+<section class="w3l-team py-5" id="team">
+    <div class="container py-lg-5 py-md-4">
+        <div class="title-content text-center mb-5">
+            <h6 class="sub-title" style="color: #ff6600; font-weight: 600; text-transform: uppercase;">Ekibimiz</h6>
+            <h3 class="hny-title" style="font-weight: 800; color: #333;">Rehberlerimizle Tanışın</h3>
+        </div>
+        
+        <div class="row d-flex justify-content-center align-items-stretch">
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-flex">
+                    <div class="guide-card">
+                        <div class="guide-img-wrapper">
+                            @if (!string.IsNullOrEmpty(item.Image))
+                            {
+                                <img src="@item.Image" alt="@item.Name" loading="lazy">
+                            }
+                            else
+                            {
+                                <img src="/Login_v1/images/img-01.png" alt="Görsel Yok">
+                            }
+                        </div>
+                        <div class="guide-info">
+                            <span class="guide-name">@item.Name</span>
+                            <div class="guide-desc-container">
+                                <p class="guide-desc">@item.Description</p>
+                            </div>
+                            
+                            <div class="guide-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
-                    
-                }
-            </div>
+            }
         </div>
     </div>
 </section>
-

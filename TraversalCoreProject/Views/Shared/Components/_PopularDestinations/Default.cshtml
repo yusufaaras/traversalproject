@@ -12,15 +12,14 @@
             <h3 class="hny-title">Popüler Turlar</h3>
         </div>
         <div class="row bottom-ab-grids">
-            <!--/row-grids-->
             @foreach (var item in Model)
             {
-                <div class="col-lg-6 subject-card mt-lg-0 mt-4">
+                <div class="col-lg-6 subject-card mt-lg-0 mt-4 mb-4">
                     <div class="subject-card-header p-4">
                         <a href="/DestinationController1/DestinationDetails/@item.DestinationId" class="card_title p-lg-4d-block">
                             <div class="row align-items-center">
                                 <div class="col-sm-5 subject-img">
-                                    <img src="@item.Image" style="width:200px;height:120px" class="img-fluid" alt="">
+                                    <img src="@item.Image" style="width:200px;height:120px; object-fit:cover; border-radius:10px;" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-sm-7 subject-content mt-sm-0 mt-4">
                                     <h4>@item.City</h4>
@@ -42,15 +41,36 @@
                 {
                     break;
                 }
-            }<div class="col-12 text-center mt-4">
-                <a href="/DestinationController1/Index/" class="btn btn-style btn-primary" style="background-color: white; color: #ff238d; border: none;">Devamını Gör >> </a>
+            }
+
+            <div class="col-12 text-center mt-4 mb-5">
+                <a href="/DestinationController1/Index/" class="btn btn-style btn-primary" style="background-color: transparent; color: #ff238d; border: 2px solid #ff238d; font-weight: bold;">Devamını Gör >> </a>
             </div>
 
-
-            <!--//row-grids-->
-        </div>
+            <div class="col-12 mt-5">
+                <div class="hotel-reservation-card p-5 text-center" style="background: linear-gradient(135deg, #fff 0%, #fef1f7 100%); border-radius: 20px; border: 1px dashed #ff238d; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8 text-lg-left text-center">
+                            <h3 style="color: #333; font-weight: 800; margin-bottom: 15px;">Konaklamanızı Planlayalım mı?</h3>
+                            <p style="font-size: 1.1rem; color: #666; margin-bottom: 0;">Sadece otel rezervasyonu hizmeti de vermekteyiz. En uygun fiyatlar ve konforlu seçenekler için bizimle hemen iletişime geçebilirsiniz.</p>
+                        </div>
+                        <div class="col-lg-4 mt-lg-0 mt-4 text-lg-right text-center">
+                            <div class="d-flex flex-column gap-3 justify-content-center align-items-lg-end">
+                                <a href="tel:+905350147693" class="btn btn-info mb-3" style="background-color: #007bff; border: none; padding: 12px 25px; border-radius: 50px; font-weight: 600; width: fit-content; display: inline-block;">
+                                    <i class="fa fa-phone mr-2"></i> Hemen Ara
+                                </a>
+                                <br />
+                                <a href="https://wa.me/905350147693" target="_blank" class="btn btn-success" style="background-color: #25d366; border: none; padding: 12px 25px; border-radius: 50px; font-weight: 600; width: fit-content; display: inline-block;">
+                                    <i class="fa fa-whatsapp mr-2"></i> WhatsApp'tan Yaz
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4" style="font-size: 1.2rem; font-weight: 700; color: #ff238d;">
+                        <i class="fa fa-id-card-o mr-2"></i> +90 535 014 76 93
+                    </div>
+                </div>
+            </div>
+            </div>
     </div>
-   
 </section>
-
-

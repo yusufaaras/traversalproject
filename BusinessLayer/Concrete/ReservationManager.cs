@@ -1,12 +1,7 @@
 ﻿using BusinessLayer.Abstract;
 using DataAccessLayer.Abstract;
-using DataAccessLayer.EntityFreamework;
 using EntityLayer.Concrete;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
@@ -21,7 +16,8 @@ namespace BusinessLayer.Concrete
 
         public List<Reservation> GetList()
         {
-            throw new NotImplementedException();
+            // Eğer IReservationDal implementasyonu GetList yapıyorsa bunu kullanın:
+            return _reservationDal.GetList();
         }
 
         public List<Reservation> GetListWithReservationByAccepted(int id)
@@ -46,17 +42,17 @@ namespace BusinessLayer.Concrete
 
         public void TDelete(Reservation t)
         {
-            throw new NotImplementedException();
+            _reservationDal.Delete(t);
         }
 
         public Reservation TGetById(int id)
         {
-            throw new NotImplementedException();
+            return _reservationDal.GetById(id);
         }
 
         public void TUpdate(Reservation t)
         {
-            throw new NotImplementedException();
+            _reservationDal.Update(t);
         }
     }
 }

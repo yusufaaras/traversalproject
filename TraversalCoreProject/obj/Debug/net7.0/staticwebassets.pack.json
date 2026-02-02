@@ -465,6 +465,10 @@
       "PackagePath": "staticwebassets/Traversal-Liberty/assets/fonts/fontawesome-webfont.woff2"
     },
     {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/Traversal-Liberty/assets/images/About01.jpeg",
+      "PackagePath": "staticwebassets/Traversal-Liberty/assets/images/About01.jpeg"
+    },
+    {
       "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/Traversal-Liberty/assets/images/AnaSayfa1.jpg",
       "PackagePath": "staticwebassets/Traversal-Liberty/assets/images/AnaSayfa1.jpg"
     },
@@ -567,6 +571,18 @@
     {
       "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/Traversal-Liberty/assets/images/g8.jpg",
       "PackagePath": "staticwebassets/Traversal-Liberty/assets/images/g8.jpg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/Traversal-Liberty/assets/images/hero1.jpeg",
+      "PackagePath": "staticwebassets/Traversal-Liberty/assets/images/hero1.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/Traversal-Liberty/assets/images/hero2.jpg",
+      "PackagePath": "staticwebassets/Traversal-Liberty/assets/images/hero2.jpg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/Traversal-Liberty/assets/images/hero3.jpeg",
+      "PackagePath": "staticwebassets/Traversal-Liberty/assets/images/hero3.jpeg"
     },
     {
       "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/Traversal-Liberty/assets/images/img-sprite.png",
@@ -1001,8 +1017,156 @@
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/0307fff3-ce0a-4631-9bd3-3b2a8428b979.jpeg",
+      "PackagePath": "staticwebassets/destinationimages/0307fff3-ce0a-4631-9bd3-3b2a8428b979.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/0457bc27-be07-4fa9-8d0d-3dcefda54c5c.jpeg",
+      "PackagePath": "staticwebassets/destinationimages/0457bc27-be07-4fa9-8d0d-3dcefda54c5c.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/04884559-7eb0-42a1-b84e-5d88202a2fb0.jpeg",
+      "PackagePath": "staticwebassets/destinationimages/04884559-7eb0-42a1-b84e-5d88202a2fb0.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/1db66a83-5b6c-4983-ae76-4268873d3ca7.jpeg",
+      "PackagePath": "staticwebassets/destinationimages/1db66a83-5b6c-4983-ae76-4268873d3ca7.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/34a746cf-f9cd-4d17-9932-987d165f0ece.png",
+      "PackagePath": "staticwebassets/destinationimages/34a746cf-f9cd-4d17-9932-987d165f0ece.png"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/3a6e8bd2-6be7-4a5e-80b8-c6e90ec957d7.png",
+      "PackagePath": "staticwebassets/destinationimages/3a6e8bd2-6be7-4a5e-80b8-c6e90ec957d7.png"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/3bc61a80-e90e-420c-b736-7e4cd0b63149.jpeg",
+      "PackagePath": "staticwebassets/destinationimages/3bc61a80-e90e-420c-b736-7e4cd0b63149.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/403bc246-8d66-4f8e-b7e0-4d313900a09d.jpeg",
+      "PackagePath": "staticwebassets/destinationimages/403bc246-8d66-4f8e-b7e0-4d313900a09d.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/65397346-02d4-4555-a1d2-6e97a467cda5.png",
+      "PackagePath": "staticwebassets/destinationimages/65397346-02d4-4555-a1d2-6e97a467cda5.png"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/68ae5122-b386-4a9f-8552-1c67bfab1ccd.png",
+      "PackagePath": "staticwebassets/destinationimages/68ae5122-b386-4a9f-8552-1c67bfab1ccd.png"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/70359c49-8cb0-4d10-9a01-fa31890587f3.jpeg",
+      "PackagePath": "staticwebassets/destinationimages/70359c49-8cb0-4d10-9a01-fa31890587f3.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/716141a9-b68c-4db7-967f-a2c88c8b72ab.jpeg",
+      "PackagePath": "staticwebassets/destinationimages/716141a9-b68c-4db7-967f-a2c88c8b72ab.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/7dfc00f7-bf5a-46b7-bc37-ab1aa2dcd3f8.jpeg",
+      "PackagePath": "staticwebassets/destinationimages/7dfc00f7-bf5a-46b7-bc37-ab1aa2dcd3f8.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/81ca3041-5dab-4fb0-b10e-5f01f1ab89b8.jpeg",
+      "PackagePath": "staticwebassets/destinationimages/81ca3041-5dab-4fb0-b10e-5f01f1ab89b8.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/95a5d1d5-5dd4-4234-a06e-832f8ac59730.jpeg",
+      "PackagePath": "staticwebassets/destinationimages/95a5d1d5-5dd4-4234-a06e-832f8ac59730.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/a99d7ab7-b81b-4b33-b7d4-db79038737f2.jpeg",
+      "PackagePath": "staticwebassets/destinationimages/a99d7ab7-b81b-4b33-b7d4-db79038737f2.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/ac8599ca-23fc-402c-bd62-2016abf88c24.jpeg",
+      "PackagePath": "staticwebassets/destinationimages/ac8599ca-23fc-402c-bd62-2016abf88c24.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/b2f1bccb-3b19-49ce-acdd-e0558efa7298.jpeg",
+      "PackagePath": "staticwebassets/destinationimages/b2f1bccb-3b19-49ce-acdd-e0558efa7298.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/b890a7ce-ef9b-4ced-8829-0a9f3b79348d.jpeg",
+      "PackagePath": "staticwebassets/destinationimages/b890a7ce-ef9b-4ced-8829-0a9f3b79348d.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/bb16fe2d-e96b-43a9-b131-837a0495fe93.png",
+      "PackagePath": "staticwebassets/destinationimages/bb16fe2d-e96b-43a9-b131-837a0495fe93.png"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/ceec5763-6140-4d4d-afad-31cc10891b05.jpeg",
+      "PackagePath": "staticwebassets/destinationimages/ceec5763-6140-4d4d-afad-31cc10891b05.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/da282d7b-5e32-4da0-93af-473790ede66a.jpeg",
+      "PackagePath": "staticwebassets/destinationimages/da282d7b-5e32-4da0-93af-473790ede66a.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/destinationimages/e56a3db8-937e-472b-8143-07cf6fa6e642.png",
+      "PackagePath": "staticwebassets/destinationimages/e56a3db8-937e-472b-8143-07cf6fa6e642.png"
+    },
+    {
       "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/guideimages/3a474104-633f-4f31-bb59-a499648ebd02.png",
+      "PackagePath": "staticwebassets/guideimages/3a474104-633f-4f31-bb59-a499648ebd02.png"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/guideimages/4d8eeec2-0382-4f8c-a2e7-826f170e1870.png",
+      "PackagePath": "staticwebassets/guideimages/4d8eeec2-0382-4f8c-a2e7-826f170e1870.png"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/guideimages/571d3679-cc48-42a5-ab50-66a9bdc0fe6e.jpeg",
+      "PackagePath": "staticwebassets/guideimages/571d3679-cc48-42a5-ab50-66a9bdc0fe6e.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/guideimages/5bf08851-07cc-4d60-873f-c01139e606f1.png",
+      "PackagePath": "staticwebassets/guideimages/5bf08851-07cc-4d60-873f-c01139e606f1.png"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/guideimages/6124f5ab-7799-480d-8638-8fbca04a4a7c.jpeg",
+      "PackagePath": "staticwebassets/guideimages/6124f5ab-7799-480d-8638-8fbca04a4a7c.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/guideimages/716141a9-b68c-4db7-967f-a2c88c8b72ab.jpeg",
+      "PackagePath": "staticwebassets/guideimages/716141a9-b68c-4db7-967f-a2c88c8b72ab.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/guideimages/7dfc00f7-bf5a-46b7-bc37-ab1aa2dcd3f8.jpeg",
+      "PackagePath": "staticwebassets/guideimages/7dfc00f7-bf5a-46b7-bc37-ab1aa2dcd3f8.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/guideimages/95a5d1d5-5dd4-4234-a06e-832f8ac59730.jpeg",
+      "PackagePath": "staticwebassets/guideimages/95a5d1d5-5dd4-4234-a06e-832f8ac59730.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/guideimages/_3a474104-633f-4f31-bb59-a499648ebd02.png",
+      "PackagePath": "staticwebassets/guideimages/_3a474104-633f-4f31-bb59-a499648ebd02.png"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/guideimages/_4d8eeec2-0382-4f8c-a2e7-826f170e1870.png",
+      "PackagePath": "staticwebassets/guideimages/_4d8eeec2-0382-4f8c-a2e7-826f170e1870.png"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/guideimages/_5bf08851-07cc-4d60-873f-c01139e606f1.png",
+      "PackagePath": "staticwebassets/guideimages/_5bf08851-07cc-4d60-873f-c01139e606f1.png"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/guideimages/b2f1bccb-3b19-49ce-acdd-e0558efa7298.jpeg",
+      "PackagePath": "staticwebassets/guideimages/b2f1bccb-3b19-49ce-acdd-e0558efa7298.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/guideimages/b890a7ce-ef9b-4ced-8829-0a9f3b79348d.jpeg",
+      "PackagePath": "staticwebassets/guideimages/b890a7ce-ef9b-4ced-8829-0a9f3b79348d.jpeg"
+    },
+    {
+      "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/guideimages/da282d7b-5e32-4da0-93af-473790ede66a.jpeg",
+      "PackagePath": "staticwebassets/guideimages/da282d7b-5e32-4da0-93af-473790ede66a.jpeg"
     },
     {
       "Id": "/Users/aliunnab/Documents/GitHub/traversalproject/TraversalCoreProject/wwwroot/js/site.js",

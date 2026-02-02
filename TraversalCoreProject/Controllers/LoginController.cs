@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using TraversalCoreProject.Models;
-using System.Threading.Tasks; // async/await için gerekli using ifadesi
+using System.Threading.Tasks;
 using EntityLayer.Concrete;
 
 namespace TraversalCoreProject.Controllers
@@ -60,73 +60,76 @@ namespace TraversalCoreProject.Controllers
 		{
 			return View();
 		}
+
         [HttpPost]
-        public async Task<IActionResult> SignIn(UserSignInViewModel p)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> SignIn(UserSignInViewModel p, string returnUrl = null)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
+                return View(p);
+
+            var identifier = (p.UserName ?? string.Empty).Trim();
+
+            // Kullanıcıyı önce e-posta olarak dene, yoksa kullanıcı adıyla dene
+            AppUser user = null;
+
+            if (identifier.Contains("@"))
             {
-                var result = await _SignInManager.PasswordSignInAsync(p.UserName, p.Password, false, true);
-                if (result.Succeeded)
-                {
-                    var user = await _UserManager.FindByNameAsync(p.UserName);
-                    if (user != null)
-                    {
-                        var roles = await _UserManager.GetRolesAsync(user);
-                        if (roles.Contains("Admin"))
-                        {
-                            return RedirectToAction("Dashboard", "Admin");
-                        }
-                    }
-                    return RedirectToAction("Index", "Default");
-                }
-                else
-                {
-                    return RedirectToAction("SignIn", "Login");
-                }
+                user = await _UserManager.FindByEmailAsync(identifier);
             }
-            return View();
+
+            if (user == null)
+            {
+                user = await _UserManager.FindByNameAsync(identifier);
+            }
+
+            if (user == null)
+            {
+                ModelState.AddModelError("", "Kullanıcı adı/e-posta veya şifre hatalı.");
+                return View(p);
+            }
+
+            // Burada user.UserName ile giriş deniyoruz (PasswordSignInAsync username tabanlıdır)
+            var result = await _SignInManager.PasswordSignInAsync(user.UserName, p.Password, isPersistent: false, lockoutOnFailure: true);
+
+            if (result.Succeeded)
+            {
+                // Admin rolü kontrolü
+                var roles = await _UserManager.GetRolesAsync(user);
+                if (roles.Contains("Admin"))
+                {
+                    return RedirectToAction("Dashboard", "Admin");
+                }
+
+                // Eğer returnUrl güvenli bir yerel url ise yönlendir, değilse ana sayfa
+                if (!string.IsNullOrEmpty(returnUrl) && Url.IsLocalUrl(returnUrl))
+                    return LocalRedirect(returnUrl);
+
+                return RedirectToAction("Index", "Default");
+            }
+
+            if (result.IsLockedOut)
+            {
+                ModelState.AddModelError("", "Hesabınız geçici olarak kilitlenmiştir. Lütfen daha sonra tekrar deneyin.");
+                return View(p);
+            }
+
+            // Başarısız giriş
+            ModelState.AddModelError("", "Kullanıcı adı/e-posta veya şifre hatalı.");
+            return View(p);
         }
-        
+
         [HttpGet]
         public async Task<IActionResult> LogOut(int reservation = 0)
         {
-            // Oturumu bitir
             await _SignInManager.SignOutAsync();
 
-            // Eğer reservation == 1 ise ana sayfaya fragment ile yönlendir
             if (reservation == 1)
             {
-                // Fragment server tarafında eklenebilir; tarayıcı redirect ettiğinde hash ile gider
                 return Redirect("/Default/Index#newReservation");
             }
 
-            // Normal logout yönlendirmesi
             return RedirectToAction("Index", "Default");
         }
-
-        //[HttpPost]
-        //public async Task <IActionResult> SignIn(UserSignInViewModel p)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        var result = await _SignInManager.PasswordSignInAsync(p.UserName,p.Password,false,true);
-        //        if(result.Succeeded)
-        //        {
-        //            if (p.UserName == "yusufaaras")
-        //            {
-        //                return RedirectToAction("DashBoard", "Admin");
-        //            }
-        //            else
-        //            {
-        //                return RedirectToAction("Index", "Default");
-        //            }
-        //        }
-        //        else
-        //        {
-        //            return RedirectToAction("SignIn","Login");
-        //        }
-        //    }
-        //    return View();
-        //}
     }
 }

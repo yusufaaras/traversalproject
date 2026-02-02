@@ -5,16 +5,31 @@
 }
 
 <h1>Yeni Rota Oluşturma Sayfası</h1>
-<form method="post">
-    @*<div class="form-group">
-    @Html.Label("Lokasyon")
-    @Html.DropDownListFor(x=>x.Destination,(List<SelectListItem>)ViewBag.v,new {@class="form-control"})
-    </div>*@
+<form method="post" enctype="multipart/form-data">
     <div class="form-group">
         @Html.Label("Şehir")
         <input type="text" asp-for="City" class="form-control" />
     </div>
     <br/>
+    
+    <div class="card p-3 mb-3">
+        <label><b>Ana Görsel (Image)</b></label>
+        <input type="file" name="fileImage" class="form-control mb-2" />
+        <input type="text" asp-for="Image" class="form-control" placeholder="Veya görsel URL'si yapıştırın..." />
+    </div>
+
+    <div class="card p-3 mb-3">
+        <label><b>Kapak Görseli (CoverImage)</b></label>
+        <input type="file" name="fileCover" class="form-control mb-2" />
+        <input type="text" asp-for="CoverImage" class="form-control" placeholder="Veya kapak URL'si yapıştırın..." />
+    </div>
+
+    <div class="card p-3 mb-3">
+        <label><b>Görsel 2 (Image2)</b></label>
+        <input type="file" name="fileImage2" class="form-control mb-2" />
+        <input type="text" asp-for="Image2" class="form-control" placeholder="Veya 2. görsel URL'si yapıştırın..." />
+    </div>
+
     <div class="form-group">
         @Html.Label("Gün Gece")
         <input type="text" asp-for="DayNight" class="form-control" />
@@ -26,23 +41,8 @@
     </div>
     <br />
     <div class="form-group">
-        @Html.Label("Ana Görsel")
-        <input type="text" asp-for="Image" class="form-control" />
-    </div>
-    <br />
-    <div class="form-group">
         @Html.Label("Kapasite")
         <input type="text" asp-for="Capacity" class="form-control" />
-    </div>
-    <br />
-    <div class="form-group">
-        @Html.Label("Kapak Görseli")
-        <input type="text" asp-for="CoverImage" class="form-control" />
-    </div>
-    <br />
-    <div class="form-group">
-        @Html.Label("Görsel 2")
-        <input type="text" asp-for="Image2" class="form-control" />
     </div>
     <br />
     <div class="form-group">
@@ -59,10 +59,6 @@
         @Html.DropDownListFor(x => x.GuideID, (List<SelectListItem>)ViewBag.Guides, "Rehber Seçin...", new { @class="form-control", required="required" })
     </div>
     <br/>
-    <button class="btn btn-outline-primary">Oluştur</button>
+    <button class="btn btn-outline-primary">Rotayı Oluştur ve Kaydet</button>
     <br />
 </form>
-<script>
-    window.onload = (function () {
-        alert('Rezervasyonunuz başlangıçta onay bekliyor şeklinde alınacaktır.Rezervasyon onaylanma süreci için "Güncel Rezervasyonlarım" menusunu takip etmeyi unutmayın.');
-    });</script>

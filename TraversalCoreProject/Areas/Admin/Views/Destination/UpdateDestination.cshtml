@@ -1,58 +1,46 @@
 ﻿@model EntityLayer.Concrete.Destination_yerler
-
 @{
     ViewData["Title"] = "UpdateDestination";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
 <h1>Rota Güncelleme Sayfası</h1>
-<form method="post">
+<form method="post" enctype="multipart/form-data">
     @Html.HiddenFor(x=>x.DestinationId)
+    @Html.HiddenFor(x=>x.GuideID) @* Rehber ID'sini kaybetmemek için *@
+
     <div class="form-group">
-        @Html.Label("Şehir")
+        <label>Şehir</label>
         <input type="text" asp-for="City" class="form-control" />
     </div>
-    <br />
-    <div class="form-group">
-        @Html.Label("Gün Gece")
-        <input type="text" asp-for="DayNight" class="form-control" />
+
+    <div class="card p-3 my-3">
+        <label>Ana Görsel</label>
+        <input type="file" name="fileImage" class="form-control mb-2" />
+        <input type="text" asp-for="Image" class="form-control" placeholder="Mevcut URL veya yeni URL..." />
     </div>
-    <br />
+
+    <div class="card p-3 my-3">
+        <label>Kapak Görseli</label>
+        <input type="file" name="fileCover" class="form-control mb-2" />
+        <input type="text" asp-for="CoverImage" class="form-control" placeholder="Mevcut URL veya yeni URL..." />
+    </div>
+
+    <div class="card p-3 my-3">
+        <label>Görsel 2</label>
+        <input type="file" name="fileImage2" class="form-control mb-2" />
+        <input type="text" asp-for="Image2" class="form-control" placeholder="Mevcut URL veya yeni URL..." />
+    </div>
+
     <div class="form-group">
-        @Html.Label("Fiyat")
+        <label>Fiyat</label>
         <input type="text" asp-for="Price" class="form-control" />
     </div>
     <br />
     <div class="form-group">
-        @Html.Label("Ana Görsel")
-        <input type="text" asp-for="Image" class="form-control" />
-    </div>
-    <br />
-    <div class="form-group">
-        @Html.Label("Kapasite")
-        <input type="text" asp-for="Capacity" class="form-control" />
-    </div>
-    <br />
-    <div class="form-group">
-        @Html.Label("Kapak Görseli")
-        <input type="text" asp-for="CoverImage" class="form-control" />
-    </div>
-    <br />
-    <div class="form-group">
-        @Html.Label("Görsel 2")
-        <input type="text" asp-for="Image2" class="form-control" />
-    </div>
-    <br />
-    <div class="form-group">
-        @Html.Label("Detay 1")
+        <label>Açıklama Detay 1</label>
         <textarea cols="30" rows="5" class="form-control" asp-for="Details1"></textarea>
     </div>
     <br />
-    <div class="form-group">
-        @Html.Label("Detay 2")
-        <textarea cols="30" rows="5" class="form-control" asp-for="Details2"></textarea>
-    </div>
-    <button class="btn btn-outline-primary">Güncelle</button>
-    <br />
+    <button class="btn btn-outline-success">Değişiklikleri Kaydet</button>
 </form>
-

@@ -1,0 +1,34 @@
+@model EntityLayer.Concrete.Reservation
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Rezervasyon Detayı";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h4>Rezervasyon #@Model.ReservationId</h4>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Kullanıcı</dt>
+            <dd class="col-sm-9">@((Model.AppUser != null) ? (Model.AppUser.Email ?? Model.AppUser.UserName) : Model.AppUserId.ToString())</dd>
+
+            <dt class="col-sm-3">Lokasyon</dt>
+            <dd class="col-sm-9">@Model.Destination?.City</dd>
+
+            <dt class="col-sm-3">Kişi Sayısı</dt>
+            <dd class="col-sm-9">@Model.PersonCount</dd>
+
+            <dt class="col-sm-3">Rezervasyon Tarihi</dt>
+            <dd class="col-sm-9">@Model.ReservationDate.ToString("yyyy-MM-dd")</dd>
+
+            <dt class="col-sm-3">Durum</dt>
+            <dd class="col-sm-9">@Model.Status</dd>
+
+            <dt class="col-sm-3">Açıklama</dt>
+            <dd class="col-sm-9">@Model.Description</dd>
+        </dl>
+
+        <a class="btn btn-secondary" href="/admin/reservation/index">Geri</a>
+    </div>
+</div>

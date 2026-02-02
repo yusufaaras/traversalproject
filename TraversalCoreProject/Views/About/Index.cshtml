@@ -1,137 +1,186 @@
-﻿@{
-    ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/_UILayout.cshtml";
+﻿@model DTOLayer.DTOS.ContactDTOs.SendMessageDTO
+@{
+ViewData["Title"] = "Hakkımızda";
+Layout = "~/Views/Shared/_UILayout.cshtml";
 }
+
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-    <title>W3.CSS Template</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
     <style>
         body, html {
             height: 100%;
-            font-family: "Inconsolata", sans-serif;
+            font-family: "Poppins", sans-serif;
+            scroll-behavior: smooth;
+            background-color: #f9f9f9;
         }
 
+        /* Giriş Animasyonu */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 1.2s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Header Görseli ve Üstten Kaymayı Engelleme */
         .bgimg {
-            background-position: center;
+            background-position: top center;
             background-size: cover;
-            background-image: url("/Traversal-Liberty/assets/images/AnaSayfa2.jpg");
-            min-height: 75%;
+            background-attachment: fixed;
+            background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("/Traversal-Liberty/assets/images/About01.jpeg");
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            /* Header'ın altında kalmaması için üstten boşluk */
+            padding-top: 100px;
+            /* Alt kısmı estetik bir kavisle kesme */
+            clip-path: ellipse(150% 100% at 50% 0%);
         }
 
+        .header-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(35px, 7vw, 85px);
+            color: white;
+            text-shadow: 2px 4px 15px rgba(0,0,0,0.7);
+            animation: fadeInDown 1.5s ease;
+            margin-bottom: 10px;
+        }
 
-        .menu {
-            display: none;
+        /* İçerik Alanı */
+        .about-section {
+            padding: 40px 20px 80px 20px;
+            background: #f9f9f9;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Arka Plan Hareketli Objeler */
+        .circle-shape {
+            position: absolute;
+            background: rgba(255, 106, 0, 0.08);
+            border-radius: 50%;
+            z-index: 0;
+            animation: float 12s infinite alternate ease-in-out;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.98);
+            border-radius: 40px;
+            padding: 60px 50px;
+            box-shadow: 0 25px 60px rgba(0,0,0,0.1);
+            position: relative;
+            z-index: 2;
+            max-width: 1000px;
+            margin: -150px auto 0 auto; /* Görselin kavisli kısmına bindirme */
+            border: 1px solid rgba(255,255,255,0.8);
+        }
+
+        .highlight-text {
+            color: #ff6a00;
+            font-weight: 600;
+        }
+
+        .lead-p {
+            font-size: 1.15rem;
+            line-height: 2;
+            color: #2d2d2d;
+            text-align: justify;
+        }
+
+        @@keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @@keyframes float {
+            0% { transform: translate(0, 0) scale(1); }
+            100% { transform: translate(30px, 60px) scale(1.1); }
+        }
+
+        /* Mobil Ekranlar İçin Ayarlar */
+        @@media (max-width: 768px) {
+            .bgimg {
+                padding-top: 80px;
+                min-height: 60vh;
+                background-attachment: scroll;
+                clip-path: ellipse(200% 100% at 50% 0%);
+            }
+            .glass-card {
+                margin-top: -80px;
+                padding: 35px 25px;
+            }
+            .header-title { font-size: 40px; }
         }
     </style>
 </head>
 <body>
-    <!-- Header with image -->
-    <header class="bgimg w3-display-container w3-grayscale-min" id="home">
-        <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-            <span class="w3-tag">7/24 Açığız</span>
-        </div>
-        <div class="w3-display-middle w3-center">
-            <span class="w3-text-white" style="font-size:90px">WHB CITY TOURİSM</span>
-        </div>
-        <div class="w3-display-bottomright w3-center w3-padding-large">
-            <span class="w3-text-white">15 Adr street, 5015</span>
-        </div>
-    </header>
-    
 
-    <!-- Add a background color and large text to the whole page -->
-    <div class="w3-sand w3-grayscale w3-large">
+<header class="bgimg" id="home">
+    <div class="w3-center">
+        <h1 class="header-title">VHB CITY TOURISM</h1>
+        <p class="w3-text-white w3-large" style="letter-spacing: 6px; font-weight: 300; text-transform: uppercase;">Kalite & Güvenin Adresi</p>
+    </div>
+</header>
 
-        <!-- About Container -->
-        <div class="w3-container" id="about">
-            <div class="w3-content" style="max-width:700px">
-                <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">VHB CITY TOURISM Hakkında</span></h5>
-                <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
-                <div class="w3-panel w3-leftbar w3-light-grey">
-                    <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
-                    <p>Chef, Coffeeist and Owner: Liam Brown</p>
-                </div>
-                <img src=" /Traversal-Liberty/assets/images/AnaSayfa1.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
-                <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
-                <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+<div class="about-section">
+    <div class="circle-shape" style="width: 350px; height: 350px; top: 0; left: -100px;"></div>
+    <div class="circle-shape" style="width: 200px; height: 200px; bottom: 0; right: -50px; background: rgba(0,123,255,0.06);"></div>
+
+    <div class="glass-card reveal">
+        <h2 class="w3-center w3-margin-bottom" style="font-family: 'Playfair Display', serif; font-weight: bold;">
+            <span style="border-bottom: 4px solid #ff6a00; padding-bottom: 10px;">Hikayemiz ve Vizyonumuz</span>
+        </h2>
+
+        <div class="lead-p w3-margin-top">
+            <p>
+                <span class="highlight-text">2022 yılında temelleri atılan VHB TURİZM</span>, kurulduğu günden bu yana turizm dünyasında sarsılmaz bir güven inşa etmiştir. Sadece bir acente olmanın ötesinde, her misafirimizin hayallerindeki rotayı birer ölümsüz hatıraya dönüştüren profesyonel bir yol arkadaşıyız. Yurt dışından gelen misafirlerimize sunduğumuz butik hizmetler, yüksek konforlu VIP transfer çözümleri ve derinlemesine planlanmış grup turlarıyla sektörde yeni standartlar belirliyoruz.
+            </p>
+
+            <p>
+                Kuruluşumuzdan bu yana biriktirdiğimiz tecrübe, özellikle manevi hassasiyetin en üst düzeyde olduğu <span class="highlight-text">Hac ve Umre turları</span> alanında farkımızı ortaya koymamızı sağlamıştır. Her bir yolculuğu bir emanet olarak görüyor; alanında uzman rehberlerimiz ve deneyimli kadromuzla, ibadetlerinizi en huzurlu ve doğru şekilde yerine getirmeniz için 7/24 yanınızda yer alıyoruz.
+            </p>
+
+            <div class="w3-panel w3-leftbar w3-serif w3-padding-large w3-margin-bottom" style="font-style: italic; font-size: 1.3rem; border-color: #ff6a00 !important; background-color: #fffaf0; border-radius: 0 20px 20px 0;">
+                "Bizimle çıktığınız her yolculuk, sadece bir varış noktasına ulaşmak değil; konforun, güvenin ve samimiyetin buluştuğu eşsiz bir manevi deneyimi paylaşmaktır."
             </div>
-        </div>
-        <div class="w3-container" id="menu">
-            <div class="w3-content" style="max-width:700px">
 
-                <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">SEYEHAT MENÜSÜ</span></h5>
+            <p>
+                Deneyimli kadromuz; ulaşımdan konaklamaya, vize süreçlerinden özel rehberlik hizmetlerine kadar her detayı titizlikle yönetir. Misyonumuz, her bir misafirimize <span class="highlight-text">VIP ayrıcalığını</span> standart bir hizmet olarak sunmak ve memnuniyeti kalıcı kılmaktır. Güvenin konforla birleştiği bu seçkin yolculuklarda, sizleri VHB TURİZM ailesinin bir parçası olmaya davet ediyoruz.
+            </p>
 
-                <div class="w3-row w3-center w3-card w3-padding">
-                    <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
-                        <div class="w3-col s6 tablink">Araçlar</div>
-                    </a>
-                    <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
-                        <div class="w3-col s6 tablink">Anlaşmalı Oteller</div>
-                    </a>
-                </div>
-
-                <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
-                    <h5>Mecedes-Benz Travego</h5>
-                    <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
-
-                    <h5>Mitsubishi-Temsa Sapphire</h5>
-                    <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
-
-                    <h5>MAN S 2000 S 2000 Mega</h5>
-                    <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
-
-                    <h5>Wolsvagen Crafter</h5>
-                    <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
-
-                    <h5>AKIA ULTRA LF9</h5>
-                    <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
-                </div>
-
-                <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
-                    <h5>Berussa Hotel</h5>
-                    <p class="w3-text-grey">Regular coffee 2.50</p><br>
-
-                    <h5>Ramada Hotel</h5>
-                    <p class="w3-text-grey">Chocolate espresso with milk 4.50</p><br>
-
-                    <h5>Hilton Garden Inn</h5>
-                    <p class="w3-text-grey">Whiskey and coffee 5.00</p><br>
-
-                    <h5>Dimen Hotel</h5>
-                    <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
-
-                    <h5>Barida Hotel</h5>
-                    <p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
-                </div>
-                <img src=" /Traversal-Liberty/assets/images/AnaSayfa4.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
-            </div>
+            <p class="w3-center w3-margin-top">
+                <span class="w3-tag w3-orange w3-text-white w3-padding-large w3-round-large" style="font-weight: 600; cursor: default;">HER ADIMDA SİZİNLEYİZ</span>
+            </p>
         </div>
     </div>
+</div>
 
-    <script>
-        // Tabbed Menu
-        function openMenu(evt, menuName) {
-            var i, x, tablinks;
-            x = document.getElementsByClassName("menu");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
+<script>
+    function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 120;
+            if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add("active");
             }
-            tablinks = document.getElementsByClassName("tablink");
-            for (i = 0; i < x.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
-            }
-            document.getElementById(menuName).style.display = "block";
-            evt.currentTarget.firstElementChild.className += " w3-dark-grey";
         }
-        document.getElementById("myLink").click();
-    </script>
+    }
+    window.addEventListener("scroll", reveal);
+    window.onload = reveal;
+</script>
 
 </body>
 </html>
-

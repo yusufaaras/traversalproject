@@ -1,221 +1,274 @@
 ﻿@using EntityLayer.Concrete
 @model List<TestiMonial>
 
-@* <section class="w3l-clients" id="clients"> *@
-@*     <!-- /grids --> *@
-@*     <div class="cusrtomer-layout py-5"> *@
-@*         <div class="container py-lg-4 py-md-3 pb-lg-0"> *@
-@*             <div class="heading text-center mx-auto"> *@
-@*                 <h6 class="sub-title text-center">Misafir Yorumlarımız</h6> *@
-@*                 <h3 class="hny-title mb-md-5 mb-4">Düşünceleriniz Bizim İçin Çok Değerli</h3> *@
-@*             </div>  *@
-@*             <!-- /grids --> *@
-@*             <div class="testimonial-width"> *@
-@*                 <div id="owl-demo1" class="owl-two owl-carousel owl-theme"> *@
-@*                     @foreach (var item in Model) *@
-@*                     {                                  *@
-@*                     <div class="item"> *@
-@*                         <div class="testimonial-content"> *@
-@*                             <div class="testimonial"> *@
-@*                                 <blockquote> *@
-@*                                     <span class="fa fa-quote-left" aria-hidden="true"></span>@item.Comment *@
-@*                                 </blockquote> *@
-@*                                 <div class="testi-des"> *@
-@*                                     <div class="test-img"> *@
-@*                                         <img src="@item.ClientImage" class="img-fluid" alt="client-img"> *@
-@*                                     </div> *@
-@*                                     <div class="peopl align-self"> *@
-@*                                         <h3>@item.Client</h3> *@
-@*                                         <p class="indentity">Example City</p> *@
-@*                                     </div> *@
-@*                                 </div> *@
-@*                             </div> *@
-@*                         </div> *@
-@*                     </div> *@
-@*                     } *@
-@* *@
-@*                 </div> *@
-@*             </div> *@
-@*         </div> *@
-@*         <!-- /grids --> *@
-@*     </div> *@
-@*     <!-- //grids --> *@
-@* </section> *@
+<section class="w3l-stats-section py-5" id="stats">
+    <style>
+        .stats-inner-layout { position: relative; display: flex; align-items: center; gap: 0; flex-wrap: nowrap; }
 
-<section class="w3l-stats-section py-5" id="stats"> <style> .stats-inner-layout { position: relative; display: flex; align-items: center; }
+        .stats-img-left {
+            position: relative;
+            z-index: 2;
+            /* PC'de videonun olduğu alanı %45'ten %55'e çıkararak daha büyük görünmesini sağladık */
+            flex: 0 0 55%;
+        }
 
-    .stats-img-left {
-        position: relative;
-        z-index: 2;
-        flex: 0 0 45%;
-    }
+        .stats-img-left img {
+            border-radius: 8px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            width: 100%;
+            height: 520px; /* Boyutu biraz daha artırıldı */
+            object-fit: cover;
+            display: block;
+        }
 
-    .stats-img-left img {
-        border-radius: 8px;
-        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-        width: 100%;
-        height: 480px;
-        object-fit: cover;
-    }
+        .video-play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80px;
+            height: 80px;
+            background: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #00bcd4;
+            font-size: 24px;
+            box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2);
+            transition: 0.3s;
+            text-decoration: none;
+            z-index: 3;
+        }
 
-    .video-play-button {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 80px;
-        height: 80px;
-        background: #fff;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #00bcd4;
-        font-size: 24px;
-        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2);
-        transition: 0.3s;
-        text-decoration: none;
-        z-index: 3;
-    }
+        .video-play-button:hover {
+            transform: translate(-50%, -50%) scale(1.1);
+            color: #008fa3;
+            background: #f8f8f8;
+        }
 
-    .video-play-button:hover {
-        transform: translate(-50%, -50%) scale(1.1);
-        color: #008fa3;
-        background: #f8f8f8;
-    }
+        .stats-right-content {
+            background-color: #00bcd4;
+            color: white;
+            padding: 60px 40px 110px 80px;
+            border-radius: 10px;
+            margin-left: -60px;
+            z-index: 1;
+            /* Sağ tarafı %65'ten %55'e çekerek dengeledik */
+            flex: 0 0 55%;
+            position: relative;
+        }
 
-    .stats-right-content {
-        background-color: #00bcd4;
-        color: white;
-        padding: 60px 40px 110px 100px; 
-        border-radius: 10px;
-        margin-left: -60px; 
-        z-index: 1;
-        flex: 0 0 65%;
-    }
+        .stats-grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            margin-top: 25px;
+            padding-top: 25px;
+        }
 
-    .stats-grid-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 25px;
-        border-top: 1px solid rgba(255, 255, 255, 0.3);
-        margin-top: 25px;
-        padding-top: 25px;
-    }
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
 
-    .stat-item {
-        display: flex;
-        align-items: center;
-        gap: 15px;
-    }
+        .stat-item i {
+            font-size: 32px;
+            opacity: 0.9;
+        }
 
-    .stat-item i {
-        font-size: 32px;
-        opacity: 0.9;
-    }
+        .stat-info h4 {
+            font-size: 22px;
+            font-weight: 800;
+            margin: 0;
+        }
 
-    .stat-info h4 {
-        font-size: 22px;
-        font-weight: 800;
-        margin: 0;
-    }
+        .stat-info p {
+            font-size: 13px;
+            margin: 0;
+            opacity: 0.8;
+            line-height: 1.2;
+        }
 
-    .stat-info p {
-        font-size: 13px;
-        margin: 0;
-        opacity: 0.8;
-        line-height: 1.2;
-    }
+        .contact-card-white {
+            background: #fff;
+            padding: 20px 35px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            position: absolute;
+            bottom: -25px;
+            right: 5%;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            z-index: 4;
+        }
 
-    .contact-card-white {
-        background: #fff;
-        padding: 20px 35px;
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        position: absolute;
-        bottom: -25px;
-        right: 10%;
-        box-shadow: 0 15px 35px rgba(0,0,0,0.1);
-        z-index: 4;
-    }
+        .contact-card-white i {
+            font-size: 40px;
+            color: #00bcd4;
+        }
 
-    .contact-card-white i {
-        font-size: 40px;
-        color: #00bcd4;
-    }
+        .contact-card-white .call-text p {
+            color: #d86a25;
+            margin: 0;
+            font-weight: 600;
+            font-size: 13px;
+        }
 
-    .contact-card-white .call-text p {
-        color: #d86a25;
-        margin: 0;
-        font-weight: 600;
-        font-size: 13px;
-    }
+        .contact-card-white .call-text h4 {
+            color: #d86a25;
+            margin: 0;
+            font-weight: 800;
+            font-size: 20px;
+        }
 
-    .contact-card-white .call-text h4 {
-        color: #d86a25;
-        margin: 0;
-        font-weight: 800;
-        font-size: 20px;
-    }
-</style>
+        /* Responsive / Mobile adjustments */
+        @@media (max-width: 991.98px) {
+        .stats-inner-layout { gap: 15px; }
+        .stats-img-left { flex: 0 0 50%; }
+        .stats-right-content { flex: 0 0 60%; margin-left: -30px; padding: 40px 30px 80px 50px; }
+        }
 
-<div class="container py-lg-5">
-    <div class="stats-inner-layout row g-0">
-        <div class="col-lg-5 stats-img-left">
-            <img src="~/Traversal-Liberty/assets/images/g8.jpg" alt="VHB City İstanbul" />
-            <a href="[http://youtube.com/watch?v=o9esB3n-GAw](http://youtube.com/watch?v=o9esB3n-GAw)" target="_blank" class="video-play-button">
-                <span class="fa fa-play"></span>
-            </a>
-        </div>
+        @@media (max-width: 767.98px) {
+        .container--fullwidth {
+            width: 100%;
+            max-width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .stats-inner-layout {
+            flex-direction: column;
+            align-items: stretch;
+        }
+        .stats-img-left,
+        .stats-right-content {
+            flex-basis: auto;
+            width: 100%;
+        }
+        .stats-img-left img {
+            height: auto;
+            border-radius: 0;
+        }
+        .stats-right-content {
+            margin-left: 0;
+            border-radius: 0;
+            padding: 30px 20px 60px;
+        }
+        .contact-card-white {
+            position: static;
+            margin: 20px auto 0;
+            right: auto;
+            bottom: auto;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        }
+        }
+    </style>
 
-        <div class="col-lg-7 stats-right-content">
-            <h6 class="mb-2" style="letter-spacing: 2px; text-transform: uppercase; color: #d86a25;">Daha Fazlası İçin Arayın</h6>
-            <h2 class="fw-bold mb-4" style="font-size: 32px; color: #d86a25;">VHB CITY İLE ŞEHRİ KEŞFEDİN, BİZİMLE SEYAHAT EDİN!</h2>
-            
-            <p class="mb-3">VHB City, Türkiye'nin en güvenilir ve köklü seyahat acentelerinden biridir. Profesyonel ekibimizle turizm sektöründe; Seyahat Acentesi, Destinasyon Yönetimi (DMC) ve Organizasyon Planlama alanlarında hizmet vermekteyiz.</p>
-            <p class="mb-4">Türkiye genelinde 110 farklı destinasyonda; kültür turları, doğa gezileri ve unutulmaz anılar biriktireceğiniz özel programlarla hizmetinizdeyiz. Misafirimiz olun ve farkı hissedin!</p>
+    <div class="container-fluid px-0 container--fullwidth">
+        <div class="container py-lg-5">
+            <div class="stats-inner-layout row g-0">
+                <div class="col-lg-6 stats-img-left">
+                    <img src="~/Traversal-Liberty/assets/images/g8.jpg" alt="VHB Turizm Hizmetleri" />
+                    <a href="#" class="video-play-button" role="button" id="videoPlayBtn" data-youtube-id="eT6jUAp5rh4" aria-label="Play video">
+                        <span class="fa fa-play"></span>
+                    </a>
+                </div>
 
-            <div class="stats-grid-container">
-                <div class="stat-item">
-                    <i class="fa fa-users"></i>
-                    <div class="stat-info">
-                        <h4>500+</h4>
-                        <p>Mutlu Misafir</p>
+                <div class="col-lg-6 stats-right-content">
+                    <h6 class="mb-2" style="letter-spacing: 2px; text-transform: uppercase; color: #d86a25;">Seyahatinizi Bizimle Planlayın</h6>
+                    <h2 class="fw-bold mb-4" style="font-size: 32px; color: #d86a25;">VHB TURİZM İLE UNUTULMAZ DENEYİMLERE YOL ALIN!</h2>
+
+                    <p class="mb-3">VHB Turizm, 2022 yılından bu yana turizm sektöründe incoming ve outgoing hizmetler sunmaktadır. Deneyimli kadromuzla, her detayın titizlikle planlandığı VIP ve grup turları ayrıcalığı sağlıyoruz.</p>
+                    <p class="mb-4">Misafirlerimiz için sadece bir seyahat değil, bir deneyim hedefliyoruz. Siz de bize katılın, seyahatinizi stressiz ve keyifli bir anıya dönüştürelim.</p>
+
+                    <div class="stats-grid-container">
+                        <div class="stat-item">
+                            <i class="fa fa-kaaba"></i>
+                            <div class="stat-info">
+                                <h4>Hac & Umre</h4>
+                                <p>Kutsal Yolculuklar</p>
+                            </div>
+                        </div>
+                        <div class="stat-item" style="border-left: 1px solid rgba(255,255,255,0.2); padding-left: 20px;">
+                            <i class="fa fa-hotel"></i>
+                            <div class="stat-info">
+                                <h4>Otel Rezervasyon</h4>
+                                <p>Konforlu Konaklama</p>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fa fa-car"></i>
+                            <div class="stat-info">
+                                <h4>Transfer</h4>
+                                <p>Şoförlü Araç Hizmeti</p>
+                            </div>
+                        </div>
+                        <div class="stat-item" style="border-left: 1px solid rgba(255,255,255,0.2); padding-left: 20px;">
+                            <i class="fa fa-map-marked-alt"></i>
+                            <div class="stat-info">
+                                <h4>Tur Programları</h4>
+                                <p>Bireysel & Grup</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="stat-item" style="border-left: 1px solid rgba(255,255,255,0.2); padding-left: 20px;">
-                    <i class="fa fa-trophy"></i>
-                    <div class="stat-info">
-                        <h4>250+</h4>
-                        <p>Başarılı Tur</p>
-                    </div>
-                </div>
-                <div class="stat-item">
-                    <i class="fa fa-user-plus"></i>
-                    <div class="stat-info">
-                        <h4>15+</h4>
-                        <p>Yıllık Üyelik</p>
-                    </div>
-                </div>
-                <div class="stat-item" style="border-left: 1px solid rgba(255,255,255,0.2); padding-left: 20px;">
-                    <i class="fa fa-map"></i>
-                    <div class="stat-info">
-                        <h4>10+</h4>
-                        <p>Rota Seçeneği</p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="contact-card-white">
-            <i class="fa fa-phone-square"></i>
-            <div class="call-text">
-                <p>7/24 Acil Destek Hattımız</p>
-                <h4>Bize Ulaşın: +90 123 456 78 90</h4>
+                <div class="contact-card-white">
+                    <i class="fa fa-phone-square"></i>
+                    <div class="call-text">
+                        <p>7/24 Hizmet Hattımız</p>
+                        <h4>Bize Ulaşın: +90 535 014 76 93</h4>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
+
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-body p-0 position-relative">
+                    <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close" style="z-index: 9999;"></button>
+                    <div class="ratio ratio-16x9">
+                        <iframe id="videoIframe" src="" title="YouTube video" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        (function () {
+            document.addEventListener('DOMContentLoaded', function () {
+                var playBtn = document.getElementById('videoPlayBtn');
+                var modalEl = document.getElementById('videoModal');
+                var iframe = document.getElementById('videoIframe');
+
+                if (!playBtn || !modalEl || !iframe) return;
+
+                var videoId = playBtn.getAttribute('data-youtube-id') || '';
+                // Embed linki Shorts için de aynı yapıyı (embed/ID) kullanır
+                var embedBase = 'https://www.youtube.com/embed/';
+                var query = '?autoplay=1&rel=0';
+
+                var bsModal = new bootstrap.Modal(modalEl);
+
+                playBtn.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    // Oynat tuşuna basıldığında src atanır (Video başlar)
+                    iframe.src = embedBase + videoId + query;
+                    bsModal.show();
+                });
+
+                modalEl.addEventListener('hidden.bs.modal', function () {
+                    // Modal kapatıldığında src boşaltılır (Video kesinlikle durur)
+                    iframe.src = '';
+                });
+            });
+        })();
+    </script>
+
 </section>

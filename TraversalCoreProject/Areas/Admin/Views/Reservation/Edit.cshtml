@@ -1,0 +1,51 @@
+@model EntityLayer.Concrete.Reservation
+@using Microsoft.AspNetCore.Mvc.Rendering
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Rezervasyon Düzenle";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h4>Rezervasyon #@Model.ReservationId Düzenle</h4>
+    </div>
+    <div class="card-body">
+        <form action="/admin/reservation/edit" method="post">
+            @Html.AntiForgeryToken()
+            <input type="hidden" asp-for="ReservationId" />
+
+            <div class="form-group">
+                <label>Kullanıcı</label>
+                <select asp-for="AppUserId" class="form-control" asp-items="(IEnumerable<SelectListItem>)ViewBag.Users"></select>
+            </div>
+
+            <div class="form-group">
+                <label>Lokasyon</label>
+                <select asp-for="DestinationId" class="form-control" asp-items="(IEnumerable<SelectListItem>)ViewBag.Destinations"></select>
+            </div>
+
+            <div class="form-group">
+                <label>Kişi Sayısı</label>
+                <input asp-for="PersonCount" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Rezervasyon Tarihi</label>
+                <input asp-for="ReservationDate" type="date" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Açıklama</label>
+                <input asp-for="Description" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Durum</label>
+                <input asp-for="Status" class="form-control" />
+            </div>
+
+            <button class="btn btn-primary" type="submit" href="/admin/reservation/index">Kaydet</button>
+            <a class="btn btn-secondary" href="/admin/reservation/index">İptal</a>
+        </form>
+    </div>
+</div>
