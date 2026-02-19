@@ -334,6 +334,9 @@ namespace DataAccessLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DestinationId"));
 
+                    b.Property<string>("Activity")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("Capacity")
                         .HasColumnType("int");
 
@@ -356,6 +359,9 @@ namespace DataAccessLayer.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Details2")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Features")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("GuideID")

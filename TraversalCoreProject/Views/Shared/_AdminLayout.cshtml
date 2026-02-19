@@ -1,99 +1,295 @@
 ﻿@{
-    Layout = null;
+Layout = null;
 }
 
 <!DOCTYPE html>
-<html lang="en"
-      class="light-style layout-menu-fixed"
-      dir="ltr"
-      data-theme="theme-default"
-      data-assets-path="../assets/"
-      data-template="vertical-menu-template-free">
+<html lang="tr" class="light-style" dir="ltr" data-theme="theme-default">
 
 @await Html.PartialAsync("~/Views/Admin/PartialHeader.cshtml")
 
+<style>
+    /* ============================================
+       TEMPLATE OVERRIDE - Tüm Ekranlar
+       ============================================ */
+
+    /* Template'in fixed menü davranışını devre dışı bırak */
+    html.layout-menu-fixed .layout-menu,
+    .layout-menu-fixed .layout-menu {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        bottom: auto !important;
+        width: 260px !important;
+    }
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .layout-wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    .layout-container {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        width: 100%;
+    }
+
+    /* ============================================
+       DESKTOP (1200px ve üzeri)
+       ============================================ */
+    @@media (min-width: 1200px) {
+        .layout-menu {
+            position: relative !important;
+            width: 260px;
+            min-width: 260px;
+            max-width: 260px;
+            height: auto;
+            min-height: 100vh;
+            transform: none !important;
+            flex-shrink: 0;
+            flex-grow: 0;
+            z-index: 100;
+        }
+
+        .layout-menu-toggle,
+        #sidebar-close-btn {
+            display: none !important;
+        }
+
+        .layout-overlay {
+            display: none !important;
+        }
+
+        .layout-page {
+            flex: 1;
+            min-width: 0;
+            width: auto;
+        }
+
+        /* Template override */
+        .layout-content-navbar .layout-menu {
+            position: relative !important;
+        }
+    }
+
+    /* ============================================
+       MOBİL (1199.98px ve altı)
+       ============================================ */
+    @@media (max-width: 1199.98px) {
+        /* Sidebar fixed overlay modunda */
+        .layout-menu {
+            position: fixed !important;
+            top: 0;
+            left: 0;
+            width: 260px;
+            height: 100vh;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease-in-out;
+            z-index: 1100;
+            overflow-y: auto;
+            will-change: transform;
+            flex: none !important;
+        }
+
+        /* Açıkken */
+        html.layout-menu-expanded .layout-menu {
+            transform: translateX(0);
+        }
+
+        /* Overlay */
+        .layout-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1099;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+            pointer-events: none;
+        }
+
+        html.layout-menu-expanded .layout-overlay {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+
+        /* İçerik - Sidebar genişliği kadar boşluk olmamalı */
+        .layout-page {
+            flex: 1;
+            width: 100%;
+            min-width: 0;
+            margin-left: 0 !important;
+            padding-left: 0 !important;
+            transform: none !important;
+        }
+
+        /* Template'in margin/padding override'larını temizle */
+        .layout-content-navbar .layout-page {
+            margin-left: 0 !important;
+        }
+
+        .layout-menu-expanded .layout-page {
+            transform: none !important;
+        }
+
+        /* Hamburger görünür */
+        .layout-menu-toggle {
+            display: block !important;
+        }
+
+        /* Kapatma butonu */
+        #sidebar-close-btn {
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+        }
+    }
+</style>
+
 <body>
-    <div class="layout-wrapper layout-content-navbar">
-        <div class="layout-container">
-            <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+<div class="layout-wrapper layout-content-navbar">
 
-                @await Html.PartialAsync("/Views/Admin/PartialAppBrandDemo.cshtml")
+    <!-- OVERLAY - En üstte ama sidebar altında -->
+    <div class="layout-overlay" id="layout-overlay"></div>
 
-                <div class="menu-inner-shadow"></div>
+    <div class="layout-container">
 
-                @await Html.PartialAsync("/Views/Admin/PartialSideBar.cshtml")
+        <!-- SIDEBAR -->
+        <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+            <div class="app-brand demo" style="display: flex; align-items: center; justify-content: space-between; padding: 0 1.5rem; height: 64px;">
+                <a href="/Default/Index/" class="app-brand-link" style="display: flex; align-items: center; text-decoration: none;">
+                        <span class="app-brand-logo demo">
+                            <img src="/Logo.png" alt="Logo" style="height:40px; width:auto;" />
+                        </span>
+                    <span class="app-brand-text demo menu-text fw-bolder ms-2">VhbCity</span>
+                </a>
+                <!-- KAPATMA BUTONU -->
+                <span id="sidebar-close-btn" class="d-xl-none" style="cursor: pointer; padding: 8px;">
+                        <i class="bx bx-x bx-sm"></i>
+                    </span>
+            </div>
 
-            </aside>
-            <div class="layout-page">
+            <div class="menu-inner-shadow"></div>
+            @await Html.PartialAsync("/Views/Admin/PartialSideBar.cshtml")
+        </aside>
 
-                @await Html.PartialAsync("/Views/Admin/PartialNavbar.cshtml")
-
-                <div class="content-wrapper">
-                    <div class="container-xxl flex-grow-1 container-p-y">
-
-                        @RenderBody()
-                    </div>
-
-                    @await Html.PartialAsync("/Views/Admin/PartialFooter.cshtml")
-
-                    <div class="content-backdrop fade"></div>
+        <!-- ANA İÇERİK -->
+        <div class="layout-page">
+            <!-- NAVBAR -->
+            <nav class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme" id="layout-navbar">
+                <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
+                        <span class="nav-item nav-link px-0 me-xl-4" id="menu-open-btn" style="cursor: pointer;">
+                            <i class="bx bx-menu bx-sm"></i>
+                        </span>
                 </div>
+                <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+                    <span class="fw-semibold">Admin Paneli</span>
+                </div>
+            </nav>
+
+            <!-- CONTENT -->
+            <div class="content-wrapper">
+                <div class="container-xxl flex-grow-1 container-p-y">
+                    @RenderBody()
+                </div>
+                @await Html.PartialAsync("/Views/Admin/PartialFooter.cshtml")
             </div>
         </div>
-        <div class="layout-overlay layout-menu-toggle"></div>
     </div>
+</div>
 
-    @await Html.PartialAsync("/Views/Admin/PartialScript.cshtml")
+@await Html.PartialAsync("/Views/Admin/PartialScript.cshtml")
 
+<script>
+    (function() {
+        'use strict';
+
+        var html = document.documentElement;
+        var overlay = document.getElementById('layout-overlay');
+        var openBtn = document.getElementById('menu-open-btn');
+        var closeBtn = document.getElementById('sidebar-close-btn');
+        var isAnimating = false;
+
+        function checkState() {
+            return html.classList.contains('layout-menu-expanded');
+        }
+
+        function openSidebar(e) {
+            if (e) {
+                e.stopPropagation();
+                e.preventDefault();
+            }
+            if (isAnimating || checkState()) return;
+
+            isAnimating = true;
+            html.classList.add('layout-menu-expanded');
+            document.body.style.overflow = 'hidden';
+
+            setTimeout(function() {
+                isAnimating = false;
+            }, 350);
+        }
+
+        function closeSidebar(e) {
+            if (e) {
+                e.stopPropagation();
+                e.preventDefault();
+            }
+            if (isAnimating || !checkState()) return;
+
+            isAnimating = true;
+            html.classList.remove('layout-menu-expanded');
+            document.body.style.overflow = '';
+
+            setTimeout(function() {
+                isAnimating = false;
+            }, 350);
+        }
+
+        if (openBtn) openBtn.onclick = openSidebar;
+        if (closeBtn) closeBtn.onclick = closeSidebar;
+        if (overlay) overlay.onclick = closeSidebar;
+
+        document.onkeydown = function(e) {
+            if (e.key === 'Escape' && checkState()) {
+                closeSidebar();
+            }
+        };
+
+        var menuLinks = document.querySelectorAll('#layout-menu .menu-link');
+        for (var i = 0; i < menuLinks.length; i++) {
+            menuLinks[i].addEventListener('click', function() {
+                if (window.innerWidth < 1200 && checkState()) {
+                    setTimeout(closeSidebar, 50);
+                }
+            });
+        }
+
+        var resizeTimer;
+        window.onresize = function() {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(function() {
+                if (window.innerWidth >= 1200 && checkState()) {
+                    closeSidebar();
+                }
+            }, 200);
+        };
+    })();
+</script>
 </body>
 </html>
-
-
-@*@{
-    Layout = null;
-}
-<!DOCTYPE html>
-
-
-<html lang="en"
-      class="light-style layout-menu-fixed"
-      dir="ltr"
-      data-theme="theme-default"
-      data-assets-path="../assets/"
-      data-template="vertical-menu-template-free">
-@await Html.PartialAsync("~/Views/Admin/PartialHeader.cshtml")
-
-<body>
-    <div class="layout-wrapper layout-content-navbar">
-        <div class="layout-container">
-
-            <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
-                @await Html.PartialAsync("~/Views/Admin/PartialAppBrandDemo.cshtml")
-
-                <div class="menu-inner-shadow"></div>
-                @await Html.PartialAsync("~/Views/Admin/PartialSideBar.cshtml")
-
-                
-            </aside>
-            <div class="layout-page">
-                @await Html.PartialAsync("~/Views/Admin/PartialNavbar.cshtml")
-                <div class="content-wrapper">
-
-                    <div class="container-xxl flex-grow-1 container-p-y">
-
-                        @RenderBody()
-
-                    </div>
-                    @await Html.PartialAsync("~/Views/Admin/PartialFooter.cshtml")
-
-                    <div class="content-backdrop fade"></div>
-                </div>
-            </div>
-        </div>
-        <div class="layout-overlay layout-menu-toggle"></div>
-    </div>
-
-    @await Html.PartialAsync("~/Views/Admin/PartialScript.cshtml")
-
-</body>
-</html>*@

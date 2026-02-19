@@ -1,46 +1,171 @@
 ﻿@model EntityLayer.Concrete.Destination_yerler
 @{
-    ViewData["Title"] = "UpdateDestination";
-    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+ViewData["Title"] = "UpdateDestination";
+Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
 <h1>Rota Güncelleme Sayfası</h1>
 <form method="post" enctype="multipart/form-data">
     @Html.HiddenFor(x=>x.DestinationId)
-    @Html.HiddenFor(x=>x.GuideID) @* Rehber ID'sini kaybetmemek için *@
 
     <div class="form-group">
         <label>Şehir</label>
         <input type="text" asp-for="City" class="form-control" />
     </div>
 
+    @* --- TARİH GÜNCELLEME ALANI EKLENDİ --- *@
+    <div class="form-group mt-3">
+        <label>Tur Tarihi</label>
+        <input type="datetime-local" asp-for="Date" class="form-control"
+               value="@Model.Date.ToString("yyyy-MM-ddTHH:mm")" />
+        <span asp-validation-for="Date" class="text-danger"></span>
+    </div>
+
+    @* --- REHBER SEÇİMİ EKLENDİ (Eksikti) --- *@
+    <div class="form-group mt-3">
+        <label>Rehber</label>
+        <select asp-for="GuideID" class="form-control" asp-items="@(new SelectList(ViewBag.Guides, "Value", "Text"))">
+            <option value="">Rehber Seçin...</option>
+        </select>
+    </div>
+
     <div class="card p-3 my-3">
         <label>Ana Görsel</label>
         <input type="file" name="fileImage" class="form-control mb-2" />
         <input type="text" asp-for="Image" class="form-control" placeholder="Mevcut URL veya yeni URL..." />
+        @if (!string.IsNullOrEmpty(Model.Image))
+        {
+        <small class="text-muted">Mevcut: @Model.Image</small>
+        }
     </div>
 
     <div class="card p-3 my-3">
         <label>Kapak Görseli</label>
         <input type="file" name="fileCover" class="form-control mb-2" />
         <input type="text" asp-for="CoverImage" class="form-control" placeholder="Mevcut URL veya yeni URL..." />
+        @if (!string.IsNullOrEmpty(Model.CoverImage))
+        {
+        <small class="text-muted">Mevcut: @Model.CoverImage</small>
+        }
     </div>
 
     <div class="card p-3 my-3">
         <label>Görsel 2</label>
         <input type="file" name="fileImage2" class="form-control mb-2" />
         <input type="text" asp-for="Image2" class="form-control" placeholder="Mevcut URL veya yeni URL..." />
+        @if (!string.IsNullOrEmpty(Model.Image2))
+        {
+        <small class="text-muted">Mevcut: @Model.Image2</small>
+        }
     </div>
 
-    <div class="form-group">
-        <label>Fiyat</label>
-        <input type="text" asp-for="Price" class="form-control" />
+    @* --- ÖZELLİKLER (FEATURES) GÜNCELLEME ALANI --- *@
+    <div class="card p-3 mb-3 border-info">
+        <label><b>Tur Özellikleri (Features)</b></label>
+        <div id="feature-container">
+            @if (Model.Features != null && Model.Features.Any())
+            {
+            foreach (var feature in Model.Features)
+            {
+            <div class="input-group mb-2">
+                <input type="text" name="Features" value="@feature" class="form-control" />
+                <button type="button" class="btn btn-danger remove-btn">Sil</button>
+            </div>
+            }
+            }
+            else
+            {
+            <div class="input-group mb-2">
+                <input type="text" name="Features" class="form-control" placeholder="Örn: Ücretsiz Wi-Fi" />
+                <button type="button" class="btn btn-danger remove-btn">Sil</button>
+            </div>
+            }
+        </div>
+        <button type="button" class="btn btn-sm btn-info" onclick="addNewInput('feature-container', 'Features')">+ Yeni Özellik Satırı Ekle</button>
     </div>
-    <br />
-    <div class="form-group">
+
+    @* --- AKTİVİTELER (ACTIVITY) GÜNCELLEME ALANI --- *@
+    <div class="card p-3 mb-3 border-success">
+        <label><b>Tur Aktiviteleri (Activity)</b></label>
+        <div id="activity-container">
+            @if (Model.Activity != null && Model.Activity.Any())
+            {
+            foreach (var activity in Model.Activity)
+            {
+            <div class="input-group mb-2">
+                <input type="text" name="Activity" value="@activity" class="form-control" />
+                <button type="button" class="btn btn-danger remove-btn">Sil</button>
+            </div>
+            }
+            }
+            else
+            {
+            <div class="input-group mb-2">
+                <input type="text" name="Activity" class="form-control" placeholder="Örn: Doğa Yürüyüşü" />
+                <button type="button" class="btn btn-danger remove-btn">Sil</button>
+            </div>
+            }
+        </div>
+        <button type="button" class="btn btn-sm btn-success" onclick="addNewInput('activity-container', 'Activity')">+ Yeni Aktivite Satırı Ekle</button>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <label>Fiyat</label>
+                <input type="text" asp-for="Price" class="form-control" />
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label>Kapasite</label>
+                <input type="number" asp-for="Capacity" class="form-control" />
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label>Gün Gece</label>
+                <input type="text" asp-for="DayNight" class="form-control" />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group mt-3">
+        <label>Kısa Açıklama (Description)</label>
+        <input type="text" asp-for="Description" class="form-control" />
+    </div>
+
+    <div class="form-group mt-3">
         <label>Açıklama Detay 1</label>
         <textarea cols="30" rows="5" class="form-control" asp-for="Details1"></textarea>
     </div>
+
+    <div class="form-group mt-3">
+        <label>Açıklama Detay 2</label>
+        <textarea cols="30" rows="5" class="form-control" asp-for="Details2"></textarea>
+    </div>
+
     <br />
-    <button class="btn btn-outline-success">Değişiklikleri Kaydet</button>
+    <button class="btn btn-outline-success btn-lg btn-block">Değişiklikleri Kaydet</button>
 </form>
+
+@* Dinamik Satır Yönetimi Scripti *@
+<script>
+    function addNewInput(containerId, name) {
+        const container = document.getElementById(containerId);
+        const div = document.createElement('div');
+        div.className = 'input-group mb-2';
+        div.innerHTML = `
+            <input type="text" name="${name}" class="form-control" />
+            <button type="button" class="btn btn-danger remove-btn">Sil</button>
+        `;
+        container.appendChild(div);
+    }
+
+    document.addEventListener('click', function (e) {
+        if (e.target && e.target.classList.contains('remove-btn')) {
+            const group = e.target.closest('.input-group');
+            group.remove();
+        }
+    });
+</script>

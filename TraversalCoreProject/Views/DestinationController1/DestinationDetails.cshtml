@@ -5,98 +5,288 @@
 }
 <!doctype html>
 <html lang="zxx">
-
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">    
+</head>
 <body>
-    <section class="w3l-about-breadcrumb text-left">
-        <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4">
-            <div class="container">
-                <h2 class="title">Tur Detayları</h2>
-                <ul class="breadcrumbs-custom-path mt-2">
-                    <li><a href="/Default/Index/">Ana Sayfa</a></li>
-                    <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Rehberin Yorumları </li>
-                </ul>
-            </div>
+<section class="w3l-about-breadcrumb text-left">
+    <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4">
+        <div class="container">
+            <h2 class="title text-white display-4 font-weight-bold">@Model.City</h2>
+            <h2 class="title">Tur Detayları</h2>
+            <ul class="breadcrumbs-custom-path mt-2">
+                <li><a href="/Default/Index/">Ana Sayfa</a></li>
+                <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Turun Detayları </li>
+            </ul>
         </div>
-    </section>
-    <section class="blog-post-main w3l-homeblock1">
-        <div class="blog-content-inf py-5">
-            <div class="container pb-lg-4">
-                
-                <div class="single-post-image">
-                    <div class="post-content">
-                        @* Yükseklik kaldırıldı, max-width ile sınırlandı. Resim kendi oranını korur *@
-                        <img src="@Model.CoverImage" style="max-width:100%; height: auto; display: block; margin: 0 auto;" class="radius-image img-fluid mb-5" alt="Kapak Görseli" />
+    </div>
+</section>
+
+<section class="blog-post-main w3l-homeblock1">
+    <div class="blog-content-inf py-5">
+        <div class="container pb-lg-4">
+    
+             <div class="row mb-5">
+                <div class="col-12">
+                    <div class="card border-0 shadow-lg rounded-4 overflow-hidden" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <div class="card-body p-4">
+                            <div class="row text-center align-items-center">
+                                @* Tarih *@
+                                <div class="col-md-4 mb-3 mb-md-0 border-end border-light border-opacity-25">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <div class="icon-wrapper mb-2 bg-white bg-opacity-20 rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                                            <i class="fas fa-calendar-alt fa-2x text-orange"></i>
+                                        </div>
+                                        <span class="text-white-50 small text-uppercase letter-spacing-1 mb-1">Tur Tarihi</span>
+                                        <span class="text-white h4 mb-0 font-weight-bold">
+                                            @Model.Date.ToString("dd MMMM yyyy", new System.Globalization.CultureInfo("tr-TR"))
+                                        </span>
+                                        <span class="text-white-50 small mt-1">
+                                            @Model.Date.ToString("HH:mm")
+                                        </span>
+                                    </div>
+                                </div>
+                                
+                                @* Fiyat *@
+                                <div class="col-md-4 mb-3 mb-md-0 border-end border-light border-opacity-25">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <div class="icon-wrapper mb-2 bg-white bg-opacity-20 rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                                            <i class="fas fa-tag fa-2x text-orange"></i>
+                                        </div>
+                                        <span class="text-white-50 small text-uppercase letter-spacing-1 mb-1">Fiyat</span>
+                                        <span class="text-white h3 mb-0 font-weight-bold">
+                                            @Model.Price.ToString("N0") <span class="h5">₺</span>
+                                        </span>
+                                        <span class="badge bg-warning text-dark mt-2 px-3 py-1 rounded-pill">
+                                            <i class="fas fa-fire mr-1"></i> Fırsat
+                                        </span>
+                                    </div>
+                                </div>
+                                
+                                @* Gün/Gece *@
+                                <div class="col-md-4">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <div class="icon-wrapper mb-2 bg-white bg-opacity-20 rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                                            <i class="fas fa-moon fa-2x text-orange"></i>
+                                        </div>
+                                        <span class="text-white-50 small text-uppercase letter-spacing-1 mb-1">Süre</span>
+                                        <span class="text-white h4 mb-0 font-weight-bold">@Model.DayNight</span>
+                                        <span class="text-white-50 small mt-1">
+                                            <i class="fas fa-sun mr-1"></i> Konaklamalı
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="single-post-image mb-4">
+                <div class="post-content position-relative overflow-hidden rounded-4 shadow-lg">
+                    <img src="@Model.CoverImage" style="width:100%; height: 500px; object-fit: cover;" class="img-fluid" alt="@Model.City Kapak Görseli" />
+                    <div class="position-absolute bottom-0 start-0 end-0 p-4" style="background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);">
+                        <span class="badge bg-warning text-dark px-3 py-2 rounded-pill mb-2">
+                            <i class="fas fa-map-marker-alt mr-1"></i> @Model.City
+                        </span>
+                        <h1 class="text-white h2 mb-0">@Model.City Turu</h1>
+                    </div>
+                </div>
+            </div>
+
+            @* --- YENİ EKLENEN BİLGİ KARTI (Tarih, Fiyat, Gün/Gece) --- *@
+           
+
+            <div class="single-post-content">
+                <div class="lead mb-5 p-4 bg-light rounded-4 border-start border-4 border-primary" style="font-size: 1.1rem; line-height: 1.8;">
+                    <i class="fas fa-quote-left text-primary opacity-25 mr-2" style="font-size: 2rem;"></i>
+                    @Model.Details1
+                </div>
+
+                <div class="row g-4 mb-5">
+                    @if (Model.Features != null && Model.Features.Any())
+                    {
+                    <div class="col-lg-6">
+                        <div class="card h-100 border-0 shadow-sm hover-shadow transition-all" style="border-radius: 20px; overflow: hidden;">
+                            <div class="card-header bg-white border-0 pt-4 pb-0 px-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="icon-circle bg-warning bg-opacity-10 text-warning mr-3" style="width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                        <i class="fas fa-star fa-lg"></i>
+                                    </div>
+                                    <h3 class="h4 mb-0 text-dark font-weight-bold">Tur Özellikleri</h3>
+                                </div>
+                            </div>
+                            <div class="card-body px-4 pt-2">
+                                <ul class="list-unstyled mb-0">
+                                    @foreach (var feature in Model.Features)
+                                    {
+                                    <li class="d-flex align-items-center py-3 border-bottom" style="border-color: #f0f0f0 !important;">
+                                        <span class="fas fa-check-circle text-success mr-3 fa-lg"></span>
+                                        <span class="text-secondary">@feature</span>
+                                    </li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    }
+
+                    @if (Model.Activity != null && Model.Activity.Any())
+                    {
+                    <div class="col-lg-6">
+                        <div class="card h-100 border-0 shadow-sm hover-shadow transition-all" style="border-radius: 20px; overflow: hidden;">
+                            <div class="card-header bg-white border-0 pt-4 pb-0 px-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="icon-circle bg-info bg-opacity-10 text-info mr-3" style="width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                        <i class="fa-solid fa-person-walking fa-lg"></i>
+                                    </div>
+                                    <h3 class="h4 mb-0 text-dark font-weight-bold">Tur Aktiviteleri</h3>
+                                </div>
+                            </div>
+                            <div class="card-body px-4 pt-2">
+                                <ul class="list-unstyled mb-0">
+                                    @{
+                                    var activityIcons = new Dictionary<string, string>
+                                    {
+                                    {"yürüyüş", "fa-walking"},
+                                    {"trekking", "fa-hiking"},
+                                    {"yüzme", "fa-swimmer"},
+                                    {"deniz", "fa-water"},
+                                    {"plaj", "fa-umbrella-beach"},
+                                    {"müze", "fa-landmark"},
+                                    {"tarih", "fa-monument"},
+                                    {"doğa", "fa-tree"},
+                                    {"fotoğraf", "fa-camera"},
+                                    {"alışveriş", "fa-shopping-bag"},
+                                    {"yemek", "fa-utensils"},
+                                    {"kamp", "fa-campground"},
+                                    {"otel", "fa-hotel"},
+                                    {"uçak", "fa-plane"},
+                                    {"tur", "fa-route"},
+                                    {"gezi", "fa-map-marked-alt"},
+                                    {"spor", "fa-running"},
+                                    {"dağ", "fa-mountain"},
+                                    {"şehir", "fa-city"},
+                                    {"tekne", "fa-ship"}
+                                    };
+                                    }
+                                    @foreach (var activity in Model.Activity)
+                                    {
+                                    var iconClass = "fa-map-marker-alt";
+                                    foreach (var kvp in activityIcons)
+                                    {
+                                    if (activity.ToLower().Contains(kvp.Key))
+                                    {
+                                    iconClass = kvp.Value;
+                                    break;
+                                    }
+                                    }
+                                    <li class="d-flex align-items-center py-3 border-bottom" style="border-color: #f0f0f0 !important;">
+                                        <span class="fas @iconClass text-info mr-3 fa-lg" style="width: 24px; text-align: center;"></span>
+                                        <span class="text-secondary">@activity</span>
+                                    </li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    }
+                </div>
+
+                <div class="row g-3 mb-5">
+                    <div class="col-md-6">
+                        <div class="position-relative overflow-hidden rounded-4 shadow-sm" style="height: 400px;">
+                            <img src="@Model.Image" class="img-fluid w-100 h-100" style="object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" alt="@Model.City Görsel 1" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="position-relative overflow-hidden rounded-4 shadow-sm" style="height: 400px;">
+                            <img src="@Model.Image2" class="img-fluid w-100 h-100" style="object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" alt="@Model.City Görsel 2" />
+                        </div>
                     </div>
                 </div>
 
-                <div class="single-post-content">
-                    <p class="alphabet mb-4">
-                        <span class="big-letter"></span>@Model.Details1
-                    </p>
-                    
-                    <blockquote class="blockquote my-5">
-                        <div class="icon-quote"><span class="fa fa-quote-left" aria-hidden="true"></span></div>
-                        Bu Turda Ben Eşlik Edeceğim
-                        <footer class="blockquote-footer mt-3">
-                            @Model.Guide.Name
-                        </footer>
-                    </blockquote>
-
-                    <div class="sing-post-thumb mb-5 row pt-3">
-                        @* Yan yana duran resimlerde de yükseklik zorlaması kaldırıldı *@
-                        <div class="col-sm-6">
-                            <a href="#url"><img src="@Model.Image" style="width:100%; height:auto;" class="img-fluid radius-image" alt=""></a>
-                        </div>
-                        <div class="col-sm-6 mt-sm-0 mt-3">
-                            <a href="#url"><img src="@Model.Image2" style="width:100%; height:auto;" class="img-fluid radius-image" alt=""></a>
-                        </div>
-                    </div>
-
-                    <h3 class="blog-desc-big m-0 mb-lg-4 mb-3">Turun Detaylı Açıklaması</h3>
-                    <p class="mb-4">
+                <div class="bg-white p-5 rounded-4 shadow-sm mb-5">
+                    <h3 class="h3 mb-4 font-weight-bold text-dark border-bottom pb-3">
+                        <i class="fas fa-align-left text-primary mr-2"></i> Detaylı Tur Açıklaması
+                    </h3>
+                    <div class="text-secondary" style="line-height: 1.9; font-size: 1.05rem;">
                         @Model.Details2
-                    </p> 
+                    </div>
+                </div>
 
-                    <div class="d-grid left-right mt-5 pb-md-5">
-                        <div class="buttons-singles tags">
-                            <h4>Etiketler :</h4>
-                            <a href="#blog-tag">Seyahat</a>
-                            <a href="#blog-tag">Gezi</a>
-                            <a href="#blog-tag">Tur</a>
-                            <a href="#blog-tag">Dünya</a>
-                        </div>
-                        <div class="buttons-singles">
-                            <h4>Paylaş :</h4>
-                            <a href="#blog-share"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-                            <a href="#blog-share"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-                            <a href="#blog-share"><span class="fa fa-google-plus" aria-hidden="true"></span></a>
-                        </div>
+                <div class="bg-gradient-primary p-5 rounded-4 shadow-lg text-center mb-5" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                    <h4 class="text-white mb-4 h3">Hemen Rezervasyon Yaptırın!</h4>
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                        <a href="https://wa.me/905350147693?text=Merhaba , @Model.City turu hakkında bilgi almak istiyorum."
+                           target="_blank"
+                           class="btn btn-light btn-lg px-5 py-3 rounded-pill font-weight-bold shadow-sm d-flex align-items-center"
+                           style="color: #25D366;">
+                            <i class="fab fa-whatsapp fa-lg mr-2"></i> WhatsApp
+                        </a>
+                        <a href="tel:+905350147693"
+                           class="btn btn-outline-light btn-lg px-5 py-3 rounded-pill font-weight-bold shadow-sm d-flex align-items-center">
+                            <i class="fas fa-phone fa-lg mr-2"></i> Hemen Ara
+                        </a>
                     </div>
+                </div>
 
-                    <div class="author-card mt-5" style="background: #f8f9fa; padding: 30px; border-radius: 15px;">
-                        <div class="row align-items-center">
-                            <div class="col-sm-3 col-12 text-center">
-                                <img src="@Model.Guide.Image" alt="@Model.Guide.Name" 
-                                     style="width: 150px; height: 150px; object-fit: cover; border: 3px solid #ff6600;" 
-                                     class="rounded-circle img-fluid">
-                            </div>
-                            <div class="col-sm-9 mt-sm-0 mt-3">
-                                <h3 class="mb-2 title" style="font-weight: 700; color: #333;">@Model.Guide.Name</h3>
-                                <h6 class="mb-3" style="color: #ff6600; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Profesyonel Rehber</h6>
-                                <p style="line-height: 1.7; color: #666;">
-                                    @Model.Guide.Description
-                                </p> 
-                            </div>
+                <div class="d-flex flex-wrap justify-content-between align-items-center pt-4 border-top">
+                    <div class="mb-3 mb-md-0">
+                        <h5 class="h6 text-muted mb-3">Etiketler:</h5>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge bg-light text-dark px-3 py-2 rounded-pill border">Seyahat</span>
+                            <span class="badge bg-light text-dark px-3 py-2 rounded-pill border">Gezi</span>
                         </div>
                     </div>
-                    <div class="mt-5">
-                        @await Component.InvokeAsync("_CommentList", new { id = ViewBag.i })
-                        @await Html.PartialAsync("~/Views/Comment/AddComment.cshtml", new { id = ViewBag.destID })
+                    <div class="text-md-right">
+                        <h5 class="h6 text-muted mb-3">Paylaş:</h5>
+                        <div class="d-flex gap-2">
+                            @{
+                            var currentUrl = Context.Request.Scheme + "://" + Context.Request.Host + Context.Request.Path;
+                            }
+                            <a href="https://wa.me/?text=@currentUrl " target="_blank" class="btn btn-success btn-sm rounded-circle d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; background-color: #25D366; border-color: #25D366;">
+                                <i class="fab fa-whatsapp fa-lg"></i>
+                            </a>
+                            <a href="https://twitter.com/intent/tweet?url=@currentUrl " target="_blank" class="btn btn-info btn-sm rounded-circle d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; background-color: #1DA1F2; border-color: #1DA1F2;">
+                                <i class="fab fa-twitter fa-lg"></i>
+                            </a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=@currentUrl " target="_blank" class="btn btn-primary btn-sm rounded-circle d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; background-color: #1877F2; border-color: #1877F2;">
+                                <i class="fab fa-facebook-f fa-lg"></i>
+                            </a>
+                            <a href="javascript:void(0);" onclick="copyToClipboard('@currentUrl')" class="btn btn-danger btn-sm rounded-circle d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); border: none;">
+                                <i class="fab fa-instagram fa-lg"></i>
+                            </a>
+                        </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+<script>
+    function copyToClipboard(text) {
+        navigator.clipboard.writeText(text).then(function() {
+            alert('Link kopyalandı!');
+        });
+    }
+</script>
+
+<style>
+    .hover-shadow:hover { box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important; transform: translateY(-5px); }
+    .transition-all { transition: all 0.3s ease; }
+    .rounded-4 { border-radius: 1rem; }
+    .gap-2 { gap: 0.5rem; }
+    .gap-3 { gap: 1rem; }
+    .letter-spacing-1 { letter-spacing: 1px; }
+    .border-opacity-25 { --bs-border-opacity: 0.25; }
+    
+    /* Mobil cihazlarda border kaldırma */
+    @@media (max-width: 767.98px) {
+        .border-end { border-right: none !important; border-bottom: 1px solid rgba(255,255,255,0.25) !important; }
+        .border-end:last-child { border-bottom: none !important; }
+    }
+</style>
 </body>
 </html>

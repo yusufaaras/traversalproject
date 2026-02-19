@@ -27,21 +27,24 @@ namespace TraversalCoreProject.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous] // Zaten sınıf başında var ama metodun anonim erişime açık olduğunu netleştirir
         public async Task<IActionResult> DestinationDetails(int id)
         {
+            ViewBag.i = id;
+            ViewBag.destID = id;
+ 
             if (User.Identity.IsAuthenticated)
             {
-                ViewBag.i = id;
-                ViewBag.destID = id;
                 var value = await _userManager.FindByNameAsync(User.Identity.Name);
-                ViewBag.userID = value.Id;
-                var values = destinationManager.TGetDestinationWithGuide(id);
-                return View(values);
+                if (value != null)
+                {
+                    ViewBag.userID = value.Id;
+                }
             }
-            else
-            {
-                return RedirectToAction("Index", "Login");
-            }
+
+            // Veriyi her durumda çek ve View'a gönder
+            var values = destinationManager.TGetDestinationWithGuide(id);
+            return View(values);
         }
         [HttpPost]
         public IActionResult DestinationDetails(Destination_yerler p)

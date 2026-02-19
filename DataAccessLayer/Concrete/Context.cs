@@ -15,8 +15,28 @@ namespace DataAccessLayer.Concrete
         {
             //optionsBuilder.UseSqlServer("server=DESKTOP-S1QPNRR;database=TraversalDb;integrated security=true;TrustServerCertificate=True;");
             //  optionsBuilder.UseSqlServer("Server=localhost,1433;Database=TraversalDb;User Id=SA;Password=Yusuf123;Encrypt=False;TrustServerCertificate=True");
-           optionsBuilder.UseSqlServer("server=77.245.159.121\\MSSQLSERVER2022;database=vhbtraveldb;user=Vhbtravel;Password=5W&gHpnnXwn7@8py;Encrypt=True;TrustServerCertificate=True;");
+          optionsBuilder.UseSqlServer("server=77.245.159.121\\MSSQLSERVER2022;database=vhbtraveldb;user=Vhbtravel;Password=5W&gHpnnXwn7@8py;Encrypt=True;TrustServerCertificate=True;");
 
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // 1. ADIM: Identity tablolarının birincil anahtarlarını (primary keys) tanımlamak için bunu ekleyin
+            base.OnModelCreating(modelBuilder);
+
+            // 2. ADIM: Kendi özel yapılandırmalarınız (Features ve Activity listeleri)
+            modelBuilder.Entity<Destination_yerler>()
+                .Property(x => x.Features)
+                .HasConversion(
+                    v => v == null ? null : string.Join(';', v),
+                    v => string.IsNullOrEmpty(v) ? new List<string>() : v.Split(';', StringSplitOptions.RemoveEmptyEntries).ToList()
+                );
+
+            modelBuilder.Entity<Destination_yerler>()
+                .Property(x => x.Activity)
+                .HasConversion(
+                    v => v == null ? null : string.Join(';', v),
+                    v => string.IsNullOrEmpty(v) ? new List<string>() : v.Split(';', StringSplitOptions.RemoveEmptyEntries).ToList()
+                );
         }
 
         public DbSet<About> Abouts { get; set; }

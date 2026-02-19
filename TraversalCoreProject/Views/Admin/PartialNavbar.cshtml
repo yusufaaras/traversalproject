@@ -1,1 +1,106 @@
-﻿
+﻿<nav class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme" id="layout-navbar">
+    
+    <!-- MOBİL HAMBURGER MENÜ BUTONU -->
+    <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
+        <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)" id="menu-toggle-btn">
+            <i class="bx bx-menu bx-sm"></i>
+        </a>
+    </div>
+
+    <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+        <!-- Navbar içeriği (search, notifications, user vb.) -->
+        <!-- Mevcut navbar içeriğinizi buraya ekleyin -->
+        
+        <!-- Örnek: Sağ taraf kullanıcı menüsü -->
+        <ul class="navbar-nav flex-row align-items-center ms-auto">
+            <li class="nav-item navbar-dropdown dropdown-user dropdown">
+                <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+                    <div class="avatar avatar-online">
+                        <img src="../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                    </div>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 me-3">
+                                    <div class="avatar avatar-online">
+                                        <img src="../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <span class="fw-semibold d-block">Admin Kullanıcı</span>
+                                    <small class="text-muted">Yönetici</small>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li><div class="dropdown-divider"></div></li>
+                    <li><a class="dropdown-item" href="/Admin/Profile/Index"><i class="bx bx-user me-2"></i> Profilim</a></li>
+                    <li><a class="dropdown-item" href="/Admin/Settings/Index"><i class="bx bx-cog me-2"></i> Ayarlar</a></li>
+                    <li><div class="dropdown-divider"></div></li>
+                    <li><a class="dropdown-item" href='@Url.Action("LogOut","Login")'><i class="bx bx-power-off me-2"></i> Çıkış Yap</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- MOBİL MENÜ İÇİN GEREKLİ CSS -->
+<style>
+/* Mobil cihazlarda sidebar varsayılan olarak gizli */
+@@media (max-width: 1199.98px) {
+    #layout-menu {
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out;
+        position: fixed !important;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        z-index: 1100;
+        width: 260px;
+    }
+    
+    /* Açıkken */
+    #layout-menu.menu-open {
+        transform: translateX(0);
+    }
+    
+    /* Overlay arka plan */
+    #layout-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1099;
+    }
+    
+    #layout-overlay.active {
+        display: block;
+    }
+    
+    /* İçerik alanı düzenlemesi */
+    .layout-page {
+        padding-left: 0 !important;
+    }
+}
+
+/* Büyük ekranlarda normal görünüm */
+@@media (min-width: 1200px) {
+    #layout-menu {
+        transform: translateX(0) !important;
+        position: relative !important;
+    }
+    
+    .layout-menu-toggle {
+        display: none !important;
+    }
+    
+    #layout-overlay {
+        display: none !important;
+    }
+}
+</style>

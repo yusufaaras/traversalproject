@@ -1,42 +1,86 @@
 ﻿<section class="w3l-main-slider" id="home">
+    <style>
+        .banner-infhny {
+            min-height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Metin Değişim Animasyonu */
+        .slider-text-content {
+            transition: all 0.8s ease-in-out;
+            transform: translateY(20px);
+            opacity: 0;
+        }
+
+        .slider-text-content.active {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        /* Kelime Bazlı Çizgi Efekti */
+        .highlight-wrapper {
+            display: inline-block;
+            position: relative;
+            margin-bottom: 1.5rem;
+        }
+
+        .highlight-text {
+            position: relative;
+            z-index: 2;
+            color: #fff;
+            font-weight: 800;
+            font-size: 3.5rem;
+            padding: 0 10px;
+            line-height: 1.2;
+        }
+
+        /* Fırça Darbesi / Alt Çizgi */
+        .highlight-text::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 8px;
+            width: 100%;
+            height: 18px;
+            background: rgba(255, 171, 0, 0.7); /* Turuncu tonu */
+            z-index: -1;
+            transform: skewX(-15deg);
+            transition: width 0.6s ease-in-out;
+        }
+
+        .sub-text {
+            color: #ffffff;
+            font-size: 1.4rem;
+            font-weight: 400;
+            max-width: 800px;
+            margin: 0 auto;
+            text-shadow: 0px 2px 10px rgba(0,0,0,0.8);
+            letter-spacing: 0.5px;
+        }
+
+        @@media (max-width: 768px) {
+            .highlight-text { font-size: 2.2rem; }
+            .sub-text { font-size: 1rem; padding: 0 15px; }
+            .highlight-text::after { height: 12px; bottom: 5px; }
+        }
+    </style>
+
     <div class="banner-content">
         <div id="demo-1"
-             data-zs-src='["/Traversal-Liberty/assets/images/hero2.jpg", "/Traversal-Liberty/assets/images/hero1.jpeg","/Traversal-Liberty/assets/images/hero3.jpeg"]'
+             data-zs-src='["/Traversal-Liberty/assets/images/hero2.jpg", "/Traversal-Liberty/assets/images/hero4.jpg","/Traversal-Liberty/assets/images/hero3.jpeg"]'
              data-zs-overlay="dots">
             <div class="demo-inner-content">
                 <div class="container">
-                    <div class="banner-infhny"> 
-                        <div class="flex-wrap search-wthree-field mt-md-5 mt-4">
-
-                            @* <form action="#" method="post" class="booking-form">
-                                <div class="row book-form">
-                                    <div class="form-input col-md-4 mt-md-0 mt-3">
-
-                                        <select name="selectpicker" class="selectpicker">
-                                            <option value="">Rotalar</option>
-                                            <option value="africa">Ukrayna</option>
-                                            <option value="america">Almanya</option>
-                                            <option value="asia">Belçika-Hollanda</option>
-                                            <option value="eastern-europe">Balkan turu</option>
-                                            <option value="europe">Mısır Turu</option>
-                                            <option value="south-america">İspanya-Tunus</option>
-                                        </select>
-
-                                    </div>
-                                    <div class="form-input col-md-4 mt-md-0 mt-3">
-
-                                        <input type="date" name="" placeholder="Date" required="">
-                                    </div>
-                                    <div class="bottom-btn col-md-4 mt-md-0 mt-3">
-                                        <button class="btn btn-style btn-secondary">
-                                            <span class="fa fa-search mr-3"
-                                                  aria-hidden="true"></span> Ara
-                                        </button>
-                                    </div>
-                                </div>
-                            </form> *@
-
-
+                    <div class="banner-infhny">
+                        <div id="slider-text-container" class="slider-text-content active">
+                            <div class="highlight-wrapper">
+                                <h2 class="highlight-text" id="main-title">Umre Turları</h2>
+                            </div>
+                            <p class="sub-text" id="sub-title">“Huzura Giden Yolculuk, Bizimle Başlar”</p>
                         </div>
                     </div>
                 </div>
@@ -45,3 +89,36 @@
     </div>
 </section>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const sliderData = [
+            { title: "Umre Turları", sub: "“Huzura Giden Yolculuk, Bizimle Başlar”" },
+            { title: "Konforlu Otel Deneyimleri", sub: "“Turizm Yolculuğunuz, Rahat Rezervasyon ile Başlar”" },
+            { title: "5 Yıldız ve Butik Otel Ayrıcalıkları", sub: "“Deneyimli Turizm Hizmeti ile Türkiye ve Yurtdışında Özel Turlar”" }
+        ];
+
+        let currentIndex = 0;
+        const container = document.getElementById('slider-text-container');
+        const mainTitle = document.getElementById('main-title');
+        const subTitle = document.getElementById('sub-title');
+
+        // Metni güncelleyen ana fonksiyon
+        function changeText(index) {
+            container.classList.remove('active');
+            
+            setTimeout(() => {
+                mainTitle.innerText = sliderData[index].title;
+                subTitle.innerText = sliderData[index].sub;
+                container.classList.add('active');
+            }, 400);
+        }
+
+        // Zumper (veya benzeri) kütüphane eventlerini dinlemek yerine 
+        // fotoğraf değişimiyle senkronize etmek için setInterval kullanıyoruz.
+        // Slider hızı genelde 5000ms veya 6000ms'dir.
+        setInterval(() => {
+            currentIndex = (currentIndex + 1) % sliderData.length;
+            changeText(currentIndex);
+        }, 5000); // Slider değişim süresiyle aynı yapın
+    });
+</script>

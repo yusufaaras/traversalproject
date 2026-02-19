@@ -46,7 +46,12 @@ namespace TraversalCoreProject.Areas.Admin.Controllers
         public async Task<IActionResult> AddDestination(Destination_yerler destination, IFormFile fileImage,
             IFormFile fileCover, IFormFile fileImage2)
         {
+            // Boş gönderilen liste elemanlarını temizlemek için (isteğe bağlı)
+            destination.Features = destination.Features?.Where(x => !string.IsNullOrWhiteSpace(x)).ToList();
+            destination.Activity = destination.Activity?.Where(x => !string.IsNullOrWhiteSpace(x)).ToList();
+
             await HandleImageUploads(destination, fileImage, fileCover, fileImage2);
+    
             _destinationService.TAdd(destination);
             return RedirectToAction("Index", "Destination", new { area = "Admin" });
         }
@@ -56,6 +61,18 @@ namespace TraversalCoreProject.Areas.Admin.Controllers
         public IActionResult UpdateDestination(int id)
         {
             var values = _destinationService.TGetById(id);
+            
+            // Guide listesini ViewBag'e ekle (Rehber seçimi için)
+            IGuideService guideService = new GuideManager(new EfGuideDal());
+            var guideList = guideService.GetList()
+                .Select(x => new SelectListItem
+                {
+                    Text = x.Name,
+                    Value = x.GuideId.ToString(),
+                    Selected = (x.GuideId == values.GuideID)
+                }).ToList();
+            ViewBag.Guides = guideList;
+            
             return View(values);
         }
 
@@ -64,7 +81,25 @@ namespace TraversalCoreProject.Areas.Admin.Controllers
         public async Task<IActionResult> UpdateDestination(Destination_yerler destination, IFormFile fileImage,
             IFormFile fileCover, IFormFile fileImage2)
         {
+            // Mevcut veriyi veritabanından çek (Resimler ve Date alanı için)
+            var existingDestination = _destinationService.TGetById(destination.DestinationId);
+            
+            // Listeleri temizle
+            destination.Features = destination.Features?.Where(x => !string.IsNullOrWhiteSpace(x)).ToList();
+            destination.Activity = destination.Activity?.Where(x => !string.IsNullOrWhiteSpace(x)).ToList();
+
+            // Eğer yeni resim yüklenmediyse mevcut resimleri koru
             await HandleImageUploads(destination, fileImage, fileCover, fileImage2);
+            
+            // Yeni resim yüklenmediyse eski değerleri ata
+            if (string.IsNullOrEmpty(destination.Image)) destination.Image = existingDestination.Image;
+            if (string.IsNullOrEmpty(destination.CoverImage)) destination.CoverImage = existingDestination.CoverImage;
+            if (string.IsNullOrEmpty(destination.Image2)) destination.Image2 = existingDestination.Image2;
+            
+            // Date alanı boşsa mevcut değeri koru (Opsiyonel - formdan gelmiyorsa)
+            if (destination.Date == default(DateTime)) 
+                destination.Date = existingDestination.Date;
+
             _destinationService.TUpdate(destination);
             return RedirectToAction("Index", "Destination", new { area = "Admin" });
         }

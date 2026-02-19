@@ -12,6 +12,14 @@
     </div>
     <br/>
     
+    @* --- TARİH ALANI EKLENDİ --- *@
+    <div class="form-group">
+        @Html.Label("Tur Tarihi")
+        <input type="datetime-local" asp-for="Date" class="form-control" />
+        <span asp-validation-for="Date" class="text-danger"></span>
+    </div>
+    <br/>
+
     <div class="card p-3 mb-3">
         <label><b>Ana Görsel (Image)</b></label>
         <input type="file" name="fileImage" class="form-control mb-2" />
@@ -28,6 +36,30 @@
         <label><b>Görsel 2 (Image2)</b></label>
         <input type="file" name="fileImage2" class="form-control mb-2" />
         <input type="text" asp-for="Image2" class="form-control" placeholder="Veya 2. görsel URL'si yapıştırın..." />
+    </div>
+
+    @* --- YENİ EKLENEN ÖZELLİKLER (FEATURES) BÖLÜMÜ --- *@
+    <div class="card p-3 mb-3 border-info">
+        <label><b>Tur Özellikleri (Features)</b></label>
+        <div id="feature-container">
+            <div class="input-group mb-2">
+                <input type="text" name="Features" class="form-control" placeholder="Örn: Ücretsiz Wi-Fi" />
+                <button type="button" class="btn btn-danger remove-btn">Sil</button>
+            </div>
+        </div>
+        <button type="button" class="btn btn-sm btn-info" onclick="addNewInput('feature-container', 'Features')">+ Yeni Özellik Satırı Ekle</button>
+    </div>
+
+    @* --- YENİ EKLENEN AKTİVİTELER (ACTIVITY) BÖLÜMÜ --- *@
+    <div class="card p-3 mb-3 border-success">
+        <label><b>Tur Aktiviteleri (Activity)</b></label>
+        <div id="activity-container">
+            <div class="input-group mb-2">
+                <input type="text" name="Activity" class="form-control" placeholder="Örn: Doğa Yürüyüşü" />
+                <button type="button" class="btn btn-danger remove-btn">Sil</button>
+            </div>
+        </div>
+        <button type="button" class="btn btn-sm btn-success" onclick="addNewInput('activity-container', 'Activity')">+ Yeni Aktivite Satırı Ekle</button>
     </div>
 
     <div class="form-group">
@@ -54,11 +86,29 @@
         @Html.Label("Detay 2")
         <textarea cols="30" rows="5" class="form-control" asp-for="Details2"></textarea>
     </div>
-    <div class="form-group">
-        @Html.Label("Rehber Seç")
-        @Html.DropDownListFor(x => x.GuideID, (List<SelectListItem>)ViewBag.Guides, "Rehber Seçin...", new { @class="form-control", required="required" })
-    </div>
+
     <br/>
     <button class="btn btn-outline-primary">Rotayı Oluştur ve Kaydet</button>
     <br />
 </form>
+
+@* --- DİNAMİK SATIR EKLEME VE SİLME SCRIPTI --- *@
+<script>
+    function addNewInput(containerId, name) {
+        const container = document.getElementById(containerId);
+        const div = document.createElement('div');
+        div.className = 'input-group mb-2';
+        div.innerHTML = `
+            <input type="text" name="${name}" class="form-control" />
+            <button type="button" class="btn btn-danger remove-btn">Sil</button>
+        `;
+        container.appendChild(div);
+    }
+
+    document.addEventListener('click', function (e) {
+        if (e.target && e.target.classList.contains('remove-btn')) {
+            const group = e.target.closest('.input-group');
+            group.remove();
+        }
+    });
+</script>
